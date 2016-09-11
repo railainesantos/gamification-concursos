@@ -10,11 +10,6 @@
 	//Planning processes ordering test
 	$('#planning').click(function(){
 
-		$('#new').click(function(){
-	    if (confirm("Deseja começar novamente?") == true) {
-	    	location.reload();
-	    }
-		});
 
 		$('#result').replaceWith("<a href='#' id='seq' style='color:#ffb058'>Mostrar os erros da sequencia</a>");
 		$('#shu').replaceWith("<a href='#' id='shuPla'>Randomizar lista</a>");
@@ -105,10 +100,6 @@
 	$('#result').click(
 		function()
 		{
-			if($('#0').find('li').length==79)
-			{
-				if (!confirm('Deseja verificar o resultado antes de mover todos os processos?')) return false;
-			}
 
 			var wrong=0;
 			var total=0;
@@ -135,7 +126,7 @@
 
 			if(total>0)
 			{
-				var string="<span id='r'>: ( Total: <strong>79</strong> | Tentativas: <strong>";
+				var string="<span id='r'>: ( Tentativas: <strong>";
 				string+=total+"</strong> | Resultado: <strong>"+ parseInt(total-wrong)+"</strong> de <strong>";
 				string+=total + "</strong> | <strong>";
 				string+=parseInt((total-wrong)*100/total);

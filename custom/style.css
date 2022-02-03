@@ -13,7 +13,7 @@ li {	list-style-type:none;
 		border:solid 1px gray;
 		margin:0 4px 1px -11px;
 		padding:5px; 
-		font-size:13px;
+		font-size:11px;
 		cursor:move; 
 		background:#E7E7E7;
 		text-shadow:1px 1px 1px #FFF;
@@ -60,7 +60,7 @@ div {
 }
 .containerTitle { 
 	display:block;
-	font-size:16px;
+	font-size:11px;
 	font-weight:bold;
 	padding:7px 5px;
 	text-align:center;
@@ -82,7 +82,7 @@ div {
 }
 .containerTitle3 { 
 	display:block;
-	font-size:16px;
+	font-size:11px;
 	font-weight:lighter;
 	padding:5px 5px;
 	text-align:left;
@@ -108,7 +108,7 @@ small {
 	background:wheat none repeat scroll 0 0;
 	border:1px solid #000;
 	display:block;
-	font-size:13px;
+	font-size:11px;
 	margin:7px 0;
 	padding:6px;
 }
@@ -130,7 +130,7 @@ small {
 	border-right:1px dotted;
 	display:block;
 	float:left;
-	font-size:14px;
+	font-size:11px;
 	height:27px;
 	margin-right:7px;
 	padding-right:5px;
@@ -141,7 +141,7 @@ h1 { font-size:20px;
 	text-shadow:
    }
 h1 span {
-	font-size:10px;
+	font-size:20px;
 }
 
 a#fdbk_tab:hover {

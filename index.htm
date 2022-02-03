@@ -20,6 +20,7 @@
   </div>
 
   <div id="menu3">
+    <a href="/" >Início</a> |
     <a href="#" id="new">Iniciar nova avaliação</a> |
     <a href="#" id="shu">Randomizar</a> |
     <a href="#" id="result">Conferir resultado</a>
@@ -27,7 +28,7 @@
 
   <ul style="position: relative;" class="ui-sortable" id="masterList">
       <div id="mixed" class="panel-content-ui">
-        <span class="containerTitle">UML 2.0</span>
+        <span class="containerTitle">Gamificação</span>
           <ul id="0">         
           </ul>
       </div>
@@ -49,24 +50,25 @@
       $( document ).ready(function() {
 
           let html = "";
-          param_disciplina = $.urlParam('disciplina');
+          param_disciplina = $.urlParam('disciplina');          
           param_assunto = $.urlParam('assunto');
           if ( param_disciplina == null ){
               $.each(json.disciplinas, function (index, item) {
-                html += "<a href=\"" + item.url + "\" \"> " + item.nome + "</a>";
+                html += "<a href=\"" + item.url + "\" \"> " + (item.nome.toUpperCase()) + "</a>";
                 html += " | ";
               });
           };
           if ((param_disciplina != null ) && (param_assunto != null )){
+              $(".containerTitle").html((param_disciplina + " | " + param_assunto).toUpperCase());
               var disciplina = json.disciplinas.find(el => el.nome === param_disciplina);
               if (disciplina != null){    
                 $.each(disciplina.assuntos, function (index, item) {
-                  html += "<a href=\"" + item.url + "\" \"> " + item.nome + "</a>";
+                  html += "<a href=\"" + item.url + "\" \"> " + (item.nome.toUpperCase()) + "</a>";
                   html += " | ";
                 });
               }else{
                 $.each(json.disciplinas, function (index, item) {
-                  html += "<a href=\"" + item.url + "\" \"> " + item.nome + "</a>";
+                  html += "<a href=\"" + item.url + "\" \"> " + (item.nome.toUpperCase()) + "</a>";
                   html += " | ";
                 });
               };
@@ -83,7 +85,7 @@
               var assunto = disciplina.assuntos.find(el => el.nome === param_assunto);
               if (assunto != null){    
                 $.each(assunto.topicos, function (index, item) {
-                  $("#masterList").append("<div class=\"pane\"> <span class=\"containerTitle\">"+ item.nome + "</span> <ul id=\""+ (index+1) + "\"><li class=\"unmovable\"></li></ul></div>");       
+                  $("#masterList").append("<div class=\"pane\"> <span class=\"containerTitle\">"+ (item.nome.toUpperCase()) + "</span> <ul id=\""+ (index+1) + "\"><li class=\"unmovable\"></li></ul></div>");       
                 });
               };
 
@@ -94,7 +96,7 @@
                $.each(topico.itens, function (index_2, item) {
                   console.log(item);
 
-                  list+="<li id=\""+ (index+1) + "\" style=\"opacity: 1; border: 1px solid gray;\" value=\""+ (index+1) + (index_2+1) +"\">" + item.nome + "</li><li class=\"unmovable\"></li>"
+                  list+="<li id=\""+ (index+1) + "\" style=\"opacity: 1; border: 1px solid gray;\" value=\""+ (index+1) + (index_2+1) +"\">" + (item.nome.toUpperCase()) + "</li><li class=\"unmovable\"></li>"
                 });            
               });
             };

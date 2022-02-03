@@ -1,0 +1,24 @@
+{"disciplinas":
+  [ {"nome": "ti", "url": "\?disciplina=ti&assunto=uml", 
+      "assuntos": [
+        {"nome": "uml", "url": "\?disciplina=ti&assunto=uml" ,"topicos":
+          [ 
+            {"nome": "Estruturais", "itens": [
+              {"nome": "Classes"},
+              {"nome": "Objetos"},
+              {"nome": "Componentes"}
+              ]
+            },
+            {"nome": "Comportamentais", "itens": [
+              {"nome": "Atividades"},
+              {"nome": "Casos de uso"},
+              {"nome": "Máquina de estados"}
+              ]
+            }
+          ]
+        },
+        {"nome": "COBIT"},
+      ] 
+    }
+  ]
+}

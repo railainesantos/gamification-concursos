@@ -1,5 +1,46 @@
+	$.getCustomJson = function(){
+		  var bkp_json = {"disciplinas":
+		                [ {"nome": "Português", "url": "#" },
+		                  {"nome": "RLM", "url": "#" },
+		                  {"nome": "Constitucional", "url": "#" },
+		                  {"nome": "Administrativo", "url": "#" },
+		                  {"nome": "ti", "url": "\?disciplina=ti&assunto=uml", 
+		                    "assuntos": [
+		                      {"nome": "uml", "url": "\?disciplina=ti&assunto=uml" ,"topicos":
+		                        [ 
+		                          {"nome": "Estruturais", "itens": [
+		                            {"nome": "Classes"},
+		                            {"nome": "Objetos"},
+		                            {"nome": "Componentes"}
+		                            ]
+		                          },
+		                          {"nome": "Comportamentais", "itens": [
+		                            {"nome": "Atividades"},
+		                            {"nome": "Casos de uso"},
+		                            {"nome": "Máquina de estados"}
+		                            ]
+		                          }
+		                        ]
+		                      },
+		                      {"nome": "COBIT"},
+		                    ] 
+		                  }
+		                ]
+		              };
+	    return json;
+	};
+
+	$.urlParam = function(name){
+	    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+	    if (results==null) {
+	       return null;
+	    }
+	    return decodeURI(results[1]) || 0;
+	};
+
    $( document ).ready(function() {
 	//Shuffle the list
+
 	$('#0').shuffle();
 	$('#shu').click(function(){
 		$('#0').shuffle();

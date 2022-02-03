@@ -1,6 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<!doctype html>
+<html lang="en">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
   <title>Gamification</title>
 
   <link href="custom/style.css" rel="stylesheet" type="text/css">
@@ -8,28 +9,108 @@
   <script type="text/javascript" src="custom/ui.js"></script>
   <script type="text/javascript" src="custom/custom.js"></script>
 
-<title>Gamification</title></head>
-
+</head>
 
 <body>
-<div id="menu2">
-	<span class="containerTitle2">Gamification</span>
-</div>
+  <div id="menu2">
+  	<span class="containerTitle2">Gamification</span>
+  </div>
 
-<div id="menu">
-	<a href="#" >Português</a> |
-	<a href="#" >RLM</a> |
-	<a href="#" >Constitucional</a> |
-	<a href="disciplinas/dir_administrativo/index.htm" >Administrativo</a> |
-	<a href="disciplinas/ti/index.htm" >TI</a>
-</div>
+  <div id="menu">
+  </div>
+
+  <div id="menu3">
+    <a href="#" id="new">Iniciar nova avaliação</a> |
+    <a href="#" id="shu">Randomizar</a> |
+    <a href="#" id="result">Conferir resultado</a>
+  </div>
+
+  <ul style="position: relative;" class="ui-sortable" id="masterList">
+      <div id="mixed" class="panel-content-ui">
+        <span class="containerTitle">UML 2.0</span>
+          <ul id="0">         
+          </ul>
+      </div>
+  </ul>
+
+  <div id="footer">@railainesantos em https://github.com/railainesantos/gamification-concursos </div>
 
 
+  <script>
+    var json = {};
+    var url = "https://api.npoint.io/5012d4f13ea19322b5bb.json";
+    $(document).ready(function() {  
+         $.getJSON(url, 
+              function(data) { json = data; writeQuestions(); }
+         ); 
+    }); 
+     
+    function writeQuestions() { 
+      $( document ).ready(function() {
+
+          let html = "";
+          param_disciplina = $.urlParam('disciplina');
+          param_assunto = $.urlParam('assunto');
+          if ( param_disciplina == null ){
+              $.each(json.disciplinas, function (index, item) {
+                html += "<a href=\"" + item.url + "\" \"> " + item.nome + "</a>";
+                html += " | ";
+              });
+          };
+          if ((param_disciplina != null ) && (param_assunto != null )){
+              var disciplina = json.disciplinas.find(el => el.nome === param_disciplina);
+              if (disciplina != null){    
+                $.each(disciplina.assuntos, function (index, item) {
+                  html += "<a href=\"" + item.url + "\" \"> " + item.nome + "</a>";
+                  html += " | ";
+                });
+              }else{
+                $.each(json.disciplinas, function (index, item) {
+                  html += "<a href=\"" + item.url + "\" \"> " + item.nome + "</a>";
+                  html += " | ";
+                });
+              };
+          };
+
+          $("#menu").append(html);
 
 
-</ul>
+          param_disciplina = $.urlParam('disciplina');
+          param_assunto = $.urlParam('assunto');
 
-<div id="footer">@railainesantos em https://github.com/railainesantos/gamification-concursos </div>
+          if ((param_disciplina != null ) && (param_assunto != null )){
+              var disciplina = json.disciplinas.find(el => el.nome === param_disciplina);
+              var assunto = disciplina.assuntos.find(el => el.nome === param_assunto);
+              if (assunto != null){    
+                $.each(assunto.topicos, function (index, item) {
+                  $("#masterList").append("<div class=\"pane\"> <span class=\"containerTitle\">"+ item.nome + "</span> <ul id=\""+ (index+1) + "\"><li class=\"unmovable\"></li></ul></div>");       
+                });
+              };
 
+            $("#0").append();
+            var list='';
+            if (assunto != null){
+              $.each(assunto.topicos, function (index, topico) {
+               $.each(topico.itens, function (index_2, item) {
+                  console.log(item);
 
-</body></html>
+                  list+="<li id=\""+ (index+1) + "\" style=\"opacity: 1; border: 1px solid gray;\" value=\""+ (index+1) + (index_2+1) +"\">" + item.nome + "</li><li class=\"unmovable\"></li>"
+                });            
+              });
+            };
+
+            $('#0').append(list).shuffle();
+            $('#0').find('.correct').each(function(){
+              $(this).parent().css('background','#E7E7E7');
+              $(this).remove();
+            });
+            $('#r').remove();
+            $("#masterList").sortable({ items: "li", handle:'.containerTitle', opacity: 0.6, helper: 'clone', forcePlaceholderSize: true,forceHelperSize: true});
+          };
+        });
+    };
+
+  </script>
+
+</body>
+</html>

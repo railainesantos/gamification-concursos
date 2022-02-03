@@ -1,7 +1,7 @@
 {"disciplinas":
-  [ {"nome": "ti", "url": "\?disciplina=ti&assunto=uml", 
+  [ {"nome": "ti", 
       "assuntos": [
-        {"nome": "uml", "url": "\?disciplina=ti&assunto=uml" ,"topicos":
+        {"nome": "uml","topicos":
           [ 
             {"nome": "Estruturais", "itens": [
               {"nome": "Classes"},

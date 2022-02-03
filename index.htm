@@ -38,6 +38,7 @@
 
   <script>
     var json = {};
+    //var url = "https://www.npoint.io/docs/486f24b62433e3c19087";
     var url = "https://api.npoint.io/486f24b62433e3c19087.json";
     $(document).ready(function() {  
          $.getJSON(url, 
@@ -62,13 +63,13 @@
       
           if ( param_disciplina == null ){
               $.each(json.disciplinas, function (index, item) {
-                html += "<a href=\"" + "\?disciplina=" + encodeURI(item.nome) + "\" \"> " + (item.nome.toUpperCase()) + "</a>";
+                html += "<a href=\"" + "\?disciplina=" + (item.nome) + "\" \"> " + (item.nome.toUpperCase()) + "</a>";
                 html += " | ";
               });
           } else if (( param_disciplina != null )){
             var disciplina = json.disciplinas.find(el => el.nome === encoded_param_disciplina);
               $.each(disciplina.assuntos, function (index, item) {
-                html += "<a href=\"" + "\?disciplina=" + encoded_param_disciplina + "&"+ "assunto=" + encodeURI(item.nome) +"\" \"> " + (item.nome.toUpperCase()) + "</a>";
+                html += "<a href=\"" + "\?disciplina=" + encoded_param_disciplina + "&"+ "assunto=" + (item.nome) +"\" \"> " + (item.nome.toUpperCase()) + "</a>";
                 html += " | ";
               });
           } else {

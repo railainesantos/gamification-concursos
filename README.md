@@ -2,7 +2,9 @@
 
 ## Descrição
 
-Game para auxiliar na memorização de conteúdos para concursos
+Game para auxiliar na memorização de conteúdos para concursos.
+
+Baseado no https://www.projetodiario.net.br/jogos-pmbok/jogo-de-gerenciamento-de-projetos-areas-de-conhecimento.htm
 
 
 ## Contribuições

@@ -1,0 +1,125 @@
+{"disciplinas":
+  [ 
+    {"nome": "ti", 
+      "assuntos": [
+        {"nome": "uml","topicos":
+          [ 
+            {"nome": "Estruturais", "itens": [
+              {"nome": "Classes"},
+              {"nome": "Objetos"},
+              {"nome": "Componentes"}
+              ]
+            },
+            {"nome": "Comportamentais", "itens": [
+              {"nome": "Atividades"},
+              {"nome": "Casos de uso"},
+              {"nome": "Máquina de estados"}
+              ]
+            }
+          ]
+        },
+        {"nome": "COBIT"},
+      ] 
+    },
+    {"nome": "direito-administrativo", 
+      "assuntos": [
+        {"nome": "atos","topicos":
+          [ 
+            {"nome": "Ato válido", "itens": [
+              {"nome": "praticado com todos os requisitos legais"}
+              ]
+            },
+            {"nome": "Ato nulo", "itens": [
+                  {"nome": "sofre vício insanável em alguns dos requisitos"},
+                  {"nome": "não possível de correção"}
+              ]
+            },
+            {"nome": "Ato anulável", "itens": [
+              {"nome": "apresenta vício sanável"},
+              {"nome": "é passível de convalidação desde que não lesivo ao patrimônio público e terceiros "}
+              ]
+            }
+          ]
+        },
+        {"nome": "COBIT"},
+      ] 
+    },
+
+    {"nome": "afo", 
+      "assuntos": [
+        {"nome": "principios-orcamentarios","topicos":
+          [ 
+            {"nome": "anualidade", "itens": [
+              {"nome": "O orçamento é elaborado e aprovado para um exercício financeiro"}
+              ]
+            },
+            {"nome": "clareza", "itens": [
+              {"nome": "O orçamento deve ser expresso de forma clara, ordenada e completa"}
+              ]
+            },
+            {"nome": "equilibrio-orcamentario", "itens": [
+              {"nome": "Visa assegurar que as despesas autorizadas não serão superiores à previsão de receitas"}
+              ]
+            },
+            {"nome": "especificacao-discriminacao-especializacao", "itens": [
+              {"nome": "As receitas e despesas devem estar discriminadas, demonstrando a origem e a aplicação dos recursos. O orçamento não poderá conter dotações globais"}
+              ]
+            },
+            {"nome": "exatidao", "itens": [
+              {"nome": "Estimativas devem ser tão exatas quanto possível."}
+              ]
+            },
+            {"nome": "exclusividade", "itens": [
+              {"nome": "Orçamento não conterá dispositivo estranho à previsão da receita e à fixação de despesa."}
+              ]
+            },
+            {"nome": "legalidade", "itens": [
+              {"nome": "PPA, LDO, LOA e créditos adicionais devem ser objeto de lei."}
+              ]
+            },
+            {"nome": "nao-afetacao", "itens": [
+              {"nome": "É vedada a vinculação de receita de impostos. "}
+              ]
+            },
+            {"nome": "orcamento-bruto", "itens": [
+              {"nome": "As receitas e despesas serão apresentadas pelos valores brutos sem qualquer dedução."}
+              ]
+            },
+            {"nome": "proibicao-do-estorno", "itens": [
+              {"nome": "Vedação à transposição, remanejamento e  transferência de recursos de uma categoria de programação para outra, ou de órgão para outro, sem autorização legislativa. "}
+              ]
+            },
+            {"nome": "programacao", "itens": [
+              {"nome": "O orçamento deve expressar os objetivos de forma programada, planejada."}
+              ]
+            },
+            {"nome": "publicidade", "itens": [
+              {"nome": "O orçamento só terá validade após ser publicado em imprensa oficial."}
+              ]
+            },
+            {"nome": "quantificacao-dos-creditos-orcamentarios", "itens": [
+              {"nome": "Veda-se a concessão de créditos ilimitados."}
+              ]
+            },
+            {"nome": "transparencia-orcamentaria", "itens": [
+              {"nome": "Ampla divulgação dos instrumentos de planejamento e orçamento, "}
+              ]
+            },
+            {"nome": "unidade-e-totalidade", "itens": [
+              {"nome": "Há um único orçamento para cada ente em cada exercício financeiro."}
+              ]
+            },
+            {"nome": "uniformidade", "itens": [
+              {"nome": "O orçamento deve manter mínima padronização ou uniformidade na apresentação de seus dados"}
+              ]
+            },
+            {"nome": "universalidade", "itens": [
+              {"nome": "LOA deve conter todas as receitas e despesas."}
+              ]
+            }
+          ]
+        }
+      ] 
+    }    
+  ]
+}

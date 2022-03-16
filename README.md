@@ -4,6 +4,8 @@
 
 Game para auxiliar na memorização de conteúdos para concursos.
 
+Disponível em https://railainesantos.github.io/gamification-concursos
+
 Baseado no https://www.projetodiario.net.br/jogos-pmbok/jogo-de-gerenciamento-de-projetos-areas-de-conhecimento.htm
 
 

@@ -1,125 +1,530 @@
-{"disciplinas":
-  [ 
-    {"nome": "ti", 
-      "assuntos": [
-        {"nome": "uml","topicos":
-          [ 
-            {"nome": "Estruturais", "itens": [
-              {"nome": "Classes"},
-              {"nome": "Objetos"},
-              {"nome": "Componentes"}
-              ]
-            },
-            {"nome": "Comportamentais", "itens": [
-              {"nome": "Atividades"},
-              {"nome": "Casos de uso"},
-              {"nome": "Máquina de estados"}
-              ]
-            }
-          ]
+{
+    "disciplinas": [
+        {
+            "nome": "ti",
+            "assuntos": [
+                {
+                    "nome": "uml 2.5",
+                    "topicos": [
+                        {
+                            "nome": "Estruturais",
+                            "itens": [
+                                {
+                                    "nome": "Classes"
+                                },
+                                {
+                                    "nome": "Objetos"
+                                },
+                                {
+                                    "nome": "Componentes"
+                                },
+                                {
+                                    "nome": "Estrutura Composta"
+                                },
+                                {
+                                    "nome": "Pacotes"
+                                },
+                                {
+                                    "nome": "Perfil"
+                                },
+                                {
+                                    "nome": "Implantação"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Comportamentais",
+                            "itens": [
+                                {
+                                    "nome": "Atividades"
+                                },
+                                {
+                                    "nome": "Casos de uso"
+                                },
+                                {
+                                    "nome": "Máquina de estados"
+                                },
+                                {
+                                    "nome": "Sequência"
+                                },
+                                {
+                                    "nome": "Comunicação"
+                                },
+                                {
+                                    "nome": "Visão Geral de Interação"
+                                },
+                                {
+                                    "nome": "Máquina de estados"
+                                },
+                                {
+                                    "nome": "Tempo"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "itil-v4",
+                    "topicos": [
+                        {
+                            "nome": "gerenciamento-geral",
+                            "itens": [
+                                {
+                                    "nome": "Gerenciamento da arquitetura"
+                                },
+                                {
+                                    "nome": "Melhoria contínua"
+                                },
+                                {
+                                    "nome": "Gerenciamento da segurança da informação"
+                                },
+                                {
+                                    "nome": "Gerenciamento do conhecimento"
+                                },
+                                {
+                                    "nome": "Medição e relatórios"
+                                },
+                                {
+                                    "nome": "Gerenciamento da mudança organizacional"
+                                },
+                                {
+                                    "nome": "Gerenciamento de portfólio"
+                                },
+                                {
+                                    "nome": "Gerenciamento de projetos"
+                                },
+                                {
+                                    "nome": "Gerenciamento de relacionamento"
+                                },
+                                {
+                                    "nome": "Gerenciamento de riscos"
+                                },
+                                {
+                                    "nome": "Gerenciamento financeiro de serviços"
+                                },
+                                {
+                                    "nome": "Gerenciamento da estratégia"
+                                },
+                                {
+                                    "nome": "Gerenciamento de fornecedor"
+                                },
+                                {
+                                    "nome": "Gerenciamento de talento e força de trabalho"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "gerenciamento-de-servicos",
+                            "itens": [
+                                {
+                                    "nome": "Gerenciamento da disponibilidade"
+                                },
+                                {
+                                    "nome": "Análise de negócios"
+                                },
+                                {
+                                    "nome": "Gerenciamento do desempenho e capacidade"
+                                },
+                                {
+                                    "nome": "Controle de mudanças"
+                                },
+                                {
+                                    "nome": "Gerenciamento de incidentes"
+                                },
+                                {
+                                    "nome": "Gerenciamento de ativos de TI"
+                                },
+                                {
+                                    "nome": "Gerenciamento de eventos e monitoramento"
+                                },
+                                {
+                                    "nome": "Gerenciamento de problemas"
+                                },
+                                {
+                                    "nome": "Gerenciamento de liberação"
+                                },
+                                {
+                                    "nome": "Gerenciamento de catálogo de serviços"
+                                },
+                                {
+                                    "nome": "Gerenciamento de configuração de serviço"
+                                },
+                                {
+                                    "nome": "Gerenciamento de continuidade de serviço"
+                                },
+                                {
+                                    "nome": "Desenho de serviço"
+                                },
+                                {
+                                    "nome": "Central de serviço"
+                                },
+                                {
+                                    "nome": "Gerenciamento de nível de serviço"
+                                },
+                                {
+                                    "nome": "Gerenciamento de requisições de serviço"
+                                },
+                                {
+                                    "nome": "Teste e validação de serviço"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "gerenciamento-tecnico",
+                            "itens": [
+                                {
+                                    "nome": "Gerenciamento da implantação"
+                                },
+                                {
+                                    "nome": "Gerenciamento de plataforma e infraestrutura"
+                                },
+                                {
+                                    "nome": "Gerenciamento e desenvolvimento de software"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "COBIT 2019",
+                    "topicos": [
+                        {
+                            "nome": "[EDM] Avaliar, Dirigir e Monitorar",
+                            "itens": [
+                                {
+                                    "nome": "Definição e Manutenção de um Framework  de Governança Assegurada."
+                                },
+                                {
+                                    "nome": "Entrega de Benefícios Assegurada"
+                                },
+                                {
+                                    "nome": "Otimização de Riscos Assegurada"
+                                },
+                                {
+                                    "nome": "Entrega de Benefícios Assegurada"
+                                },
+                                {
+                                    "nome": "Engajamento com as Partes Assegurada"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "[APO] Alinhar, Planejar e Organizar",
+                            "itens": [
+                                {
+                                    "nome": "Framework de Gestão de TI Gerenciado"
+                                },
+                                {
+                                    "nome": "Estratégia Gerenciada"
+                                },
+                                {
+                                    "nome": "Arquitetura Empresarial Gerenciada"
+                                },
+                                {
+                                    "nome": "Inovação Gerenciada"
+                                },
+                                {
+                                    "nome": "Portfólio Gerenciado"
+                                },
+                                {
+                                    "nome": "Orçamento e Custos Gerenciados"
+                                },
+                                {
+                                    "nome": "Recursos Humanos Gerenciados"
+                                },
+                                {
+                                    "nome": "Relacionamentos Gerenciados"
+                                },
+                                {
+                                    "nome": "Acordos de Serviço Gerenciados"
+                                },
+                                {
+                                    "nome": "Terceiros Gerenciados"
+                                },
+                                {
+                                    "nome": "Qualidade Gerenciada"
+                                },
+                                {
+                                    "nome": "Risco Gerenciado"
+                                },
+                                {
+                                    "nome": "Segurança Gerenciada"
+                                },
+                                {
+                                    "nome": "Dados Gerenciados"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "[BAI] Construir, Adquirir e Implementar",
+                            "itens": [
+                                {
+                                    "nome": "Programas Gerenciados"
+                                },
+                                {
+                                    "nome": "Definição de Requisitos Gerenciada"
+                                },
+                                {
+                                    "nome": "Identificação e Construção de Soluções  Gerenciadas"
+                                },
+                                {
+                                    "nome": "Capacidade e Disponibilidade Gerenciadas"
+                                },
+                                {
+                                    "nome": "Mudanças Organizacionais Gerenciadas"
+                                },
+                                {
+                                    "nome": "Mudanças de TI Gerenciadas"
+                                },
+                                {
+                                    "nome": "Aceite e Transformação de Mudanças de TI  Gerenciadas"
+                                },
+                                {
+                                    "nome": "Conhecimento Gerenciado"
+                                },
+                                {
+                                    "nome": "Ativos Gerenciados"
+                                },
+                                {
+                                    "nome": "Configuração Gerenciada"
+                                },
+                                {
+                                    "nome": "Projetos Gerenciados"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "[DSS] Entregar, Servir e Suportar",
+                            "itens": [
+                                {
+                                    "nome": "Operações Gerenciadas"
+                                },
+                                {
+                                    "nome": "Incidentes e Requisições de Serviço  Gerenciadas"
+                                },
+                                {
+                                    "nome": "Problemas Gerenciados"
+                                },
+                                {
+                                    "nome": "Continuidade Gerenciada"
+                                },
+                                {
+                                    "nome": "Serviços de Segurança Gerenciados"
+                                },
+                                {
+                                    "nome": "Controles de Processos de Negócio  Gerenciados"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "[MEA] Monitorar, Avaliar e Analisar",
+                            "itens": [
+                                {
+                                    "nome": "Monitoração do Desempenho e da Conformidade  Gerenciado"
+                                },
+                                {
+                                    "nome": "Sistema de Controle Interno Gerenciado"
+                                },
+                                {
+                                    "nome": "Conformidade com Regulações Externas  Gerenciada"
+                                },
+                                {
+                                    "nome": "Garantia Gerenciada"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
-        {"nome": "COBIT"},
-      ] 
-    },
-    {"nome": "direito-administrativo", 
-      "assuntos": [
-        {"nome": "atos","topicos":
-          [ 
-            {"nome": "Ato válido", "itens": [
-              {"nome": "praticado com todos os requisitos legais"}
-              ]
-            },
-            {"nome": "Ato nulo", "itens": [
-                  {"nome": "sofre vício insanável em alguns dos requisitos"},
-                  {"nome": "não possível de correção"}
-              ]
-            },
-            {"nome": "Ato anulável", "itens": [
-              {"nome": "apresenta vício sanável"},
-              {"nome": "é passível de convalidação desde que não lesivo ao patrimônio público e terceiros "}
-              ]
-            }
-          ]
+        {
+            "nome": "direito-administrativo",
+            "assuntos": [
+                {
+                    "nome": "atos",
+                    "topicos": [
+                        {
+                            "nome": "Ato válido",
+                            "itens": [
+                                {
+                                    "nome": "praticado com todos os requisitos legais"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Ato nulo",
+                            "itens": [
+                                {
+                                    "nome": "sofre vício insanável em alguns dos requisitos"
+                                },
+                                {
+                                    "nome": "não possível de correção"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Ato anulável",
+                            "itens": [
+                                {
+                                    "nome": "apresenta vício sanável"
+                                },
+                                {
+                                    "nome": "é passível de convalidação desde que não lesivo ao patrimônio público e terceiros "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "COBIT"
+                }
+            ]
         },
-        {"nome": "COBIT"},
-      ] 
-    },
-
-    {"nome": "afo", 
-      "assuntos": [
-        {"nome": "principios-orcamentarios","topicos":
-          [ 
-            {"nome": "anualidade", "itens": [
-              {"nome": "O orçamento é elaborado e aprovado para um exercício financeiro"}
-              ]
-            },
-            {"nome": "clareza", "itens": [
-              {"nome": "O orçamento deve ser expresso de forma clara, ordenada e completa"}
-              ]
-            },
-            {"nome": "equilibrio-orcamentario", "itens": [
-              {"nome": "Visa assegurar que as despesas autorizadas não serão superiores à previsão de receitas"}
-              ]
-            },
-            {"nome": "especificacao-discriminacao-especializacao", "itens": [
-              {"nome": "As receitas e despesas devem estar discriminadas, demonstrando a origem e a aplicação dos recursos. O orçamento não poderá conter dotações globais"}
-              ]
-            },
-            {"nome": "exatidao", "itens": [
-              {"nome": "Estimativas devem ser tão exatas quanto possível."}
-              ]
-            },
-            {"nome": "exclusividade", "itens": [
-              {"nome": "Orçamento não conterá dispositivo estranho à previsão da receita e à fixação de despesa."}
-              ]
-            },
-            {"nome": "legalidade", "itens": [
-              {"nome": "PPA, LDO, LOA e créditos adicionais devem ser objeto de lei."}
-              ]
-            },
-            {"nome": "nao-afetacao", "itens": [
-              {"nome": "É vedada a vinculação de receita de impostos. "}
-              ]
-            },
-            {"nome": "orcamento-bruto", "itens": [
-              {"nome": "As receitas e despesas serão apresentadas pelos valores brutos sem qualquer dedução."}
-              ]
-            },
-            {"nome": "proibicao-do-estorno", "itens": [
-              {"nome": "Vedação à transposição, remanejamento e  transferência de recursos de uma categoria de programação para outra, ou de órgão para outro, sem autorização legislativa. "}
-              ]
-            },
-            {"nome": "programacao", "itens": [
-              {"nome": "O orçamento deve expressar os objetivos de forma programada, planejada."}
-              ]
-            },
-            {"nome": "publicidade", "itens": [
-              {"nome": "O orçamento só terá validade após ser publicado em imprensa oficial."}
-              ]
-            },
-            {"nome": "quantificacao-dos-creditos-orcamentarios", "itens": [
-              {"nome": "Veda-se a concessão de créditos ilimitados."}
-              ]
-            },
-            {"nome": "transparencia-orcamentaria", "itens": [
-              {"nome": "Ampla divulgação dos instrumentos de planejamento e orçamento, "}
-              ]
-            },
-            {"nome": "unidade-e-totalidade", "itens": [
-              {"nome": "Há um único orçamento para cada ente em cada exercício financeiro."}
-              ]
-            },
-            {"nome": "uniformidade", "itens": [
-              {"nome": "O orçamento deve manter mínima padronização ou uniformidade na apresentação de seus dados"}
-              ]
-            },
-            {"nome": "universalidade", "itens": [
-              {"nome": "LOA deve conter todas as receitas e despesas."}
-              ]
-            }
-          ]
+        {
+            "nome": "afo",
+            "assuntos": [
+                {
+                    "nome": "principios-orcamentarios",
+                    "topicos": [
+                        {
+                            "nome": "anualidade",
+                            "itens": [
+                                {
+                                    "nome": "O orçamento é elaborado e aprovado para um exercício financeiro"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "clareza",
+                            "itens": [
+                                {
+                                    "nome": "O orçamento deve ser expresso de forma clara, ordenada e completa"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "equilibrio-orcamentario",
+                            "itens": [
+                                {
+                                    "nome": "Visa assegurar que as despesas autorizadas não serão superiores à previsão de receitas"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "especificacao-discriminacao-especializacao",
+                            "itens": [
+                                {
+                                    "nome": "As receitas e despesas devem estar discriminadas, demonstrando a origem e a aplicação dos recursos. O orçamento não poderá conter dotações globais"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "exatidao",
+                            "itens": [
+                                {
+                                    "nome": "Estimativas devem ser tão exatas quanto possível."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "exclusividade",
+                            "itens": [
+                                {
+                                    "nome": "Orçamento não conterá dispositivo estranho à previsão da receita e à fixação de despesa."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "legalidade",
+                            "itens": [
+                                {
+                                    "nome": "PPA, LDO, LOA e créditos adicionais devem ser objeto de lei."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "nao-afetacao",
+                            "itens": [
+                                {
+                                    "nome": "É vedada a vinculação de receita de impostos. "
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "orcamento-bruto",
+                            "itens": [
+                                {
+                                    "nome": "As receitas e despesas serão apresentadas pelos valores brutos sem qualquer dedução."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "proibicao-do-estorno",
+                            "itens": [
+                                {
+                                    "nome": "Vedação à transposição, remanejamento e  transferência de recursos de uma categoria de programação para outra, ou de órgão para outro, sem autorização legislativa. "
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "programacao",
+                            "itens": [
+                                {
+                                    "nome": "O orçamento deve expressar os objetivos de forma programada, planejada."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "publicidade",
+                            "itens": [
+                                {
+                                    "nome": "O orçamento só terá validade após ser publicado em imprensa oficial."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "quantificacao-dos-creditos-orcamentarios",
+                            "itens": [
+                                {
+                                    "nome": "Veda-se a concessão de créditos ilimitados."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "transparencia-orcamentaria",
+                            "itens": [
+                                {
+                                    "nome": "Ampla divulgação dos instrumentos de planejamento e orçamento, "
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "unidade-e-totalidade",
+                            "itens": [
+                                {
+                                    "nome": "Há um único orçamento para cada ente em cada exercício financeiro."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "uniformidade",
+                            "itens": [
+                                {
+                                    "nome": "O orçamento deve manter mínima padronização ou uniformidade na apresentação de seus dados"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "universalidade",
+                            "itens": [
+                                {
+                                    "nome": "LOA deve conter todas as receitas e despesas."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
-      ] 
-    }    
-  ]
+    ]
 }

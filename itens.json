@@ -4,7 +4,7 @@
             "nome": "ti",
             "assuntos": [
                 {
-                    "nome": "uml 2.5",
+                    "nome": "uml-2.5",
                     "topicos": [
                         {
                             "nome": "Estruturais",
@@ -63,6 +63,93 @@
                         }
                     ]
                 },
+
+
+                {
+                    "nome": "nist",
+                    "topicos": [
+                        {
+                            "nome": "Identificar-P",
+                            "itens": [
+                                {
+                                    "nome": "Inventário e mapeamento"
+                                },
+                                {
+                                    "nome": "Ambiente de negócios"
+                                },
+                                {
+                                    "nome": "Avaliação de risco"
+                                },
+                                {
+                                    "nome": "Gestão de riscos do ecossistema de processamento de dados"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Governar-P",
+                            "itens": [
+                                {
+                                    "nome": "Normas, processos e procedimentos de governança"
+                                },
+                                {
+                                    "nome": "Estratégia de gestão de riscos"
+                                },
+                                {
+                                    "nome": "Conscientização e treinamento"
+                                },
+                                {
+                                    "nome": "Monitoramento e revisão"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Controlar-P",
+                            "itens": [
+                                {
+                                    "nome": "Políticas, processos e procedimentos de processamento de dados"
+                                },
+                                {
+                                    "nome": "Gerenciamento do processamento de dados"
+                                },
+                                {
+                                    "nome": "Processamento desassociado"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Comunicar-P",
+                            "itens": [
+                                {
+                                    "nome": "Normas, processos e procedimentos de comunicação"
+                                },
+                                {
+                                    "nome": "Conscientização sobre processamento de dados"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Proteger-P",
+                            "itens": [
+                                {
+                                    "nome": "Normas, processos e procedimentos de proteção de dados"
+                                },
+                                {
+                                    "nome": "Controle de acesso, autenticação e gerenciamento de identidade"
+                                },
+                                {
+                                    "nome": "Segurança de dados"
+                                },
+                                {
+                                    "nome": "Manutenção"
+                                },
+                                {
+                                    "nome": "Tecnologia protetiva"
+                                }
+                            ]
+                        }
+                    ]
+                },
+
                 {
                     "nome": "itil-v4",
                     "topicos": [
@@ -186,7 +273,470 @@
                     ]
                 },
                 {
-                    "nome": "COBIT 2019",
+                    "nome": "cmmi-dev-2.0",
+                    "topicos": [
+                        {
+                            "nome": "Fazendo",
+                            "itens": [
+                                {
+                                    "nome": "Entrega e Gerência de Serviços"
+                                },
+                                {
+                                    "nome": "Desenvolvimento e Engenharia do Produto"
+                                },
+                                {
+                                    "nome": "Garantia da Qualidade"
+                                },
+                                {
+                                    "nome": "Seleção e Gerência de Fornecedores"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Gerenciando",
+                            "itens": [
+                                {
+                                    "nome": "Planejamento e Gerência do Trabalho"
+                                },
+                                {
+                                    "nome": "Gerência de Resiliência do  Negócio"
+                                },
+                                {
+                                    "nome": "Gerência da Força de Trabalho"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Possibilitando",
+                            "itens": [
+                                {
+                                    "nome": "Apoio à Implementação"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Melhorando",
+                            "itens": [
+                                {
+                                    "nome": "Manutenção de Hábito e Persistência"
+                                },
+                                {
+                                    "nome": "Melhoria do Desempenho"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "cmmi-dev-1.3",
+                    "topicos": [
+                        {
+                            "nome": "Gestão do Processo",
+                            "itens": [
+                                {
+                                    "nome": "Foco no Processo Organizacional (OPF)"
+                                },
+                                {
+                                    "nome": "Definição do Processo Organizacional (OPD)"
+                                },
+                                {
+                                    "nome": "Treinamento Organizacional (OT)"
+                                },
+                                {
+                                    "nome": "Desempenho do Processo Organizacional (OPP)"
+                                },
+                                {
+                                    "nome": "Gestão do Desempenho Organizacional (OPM)"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Gestão do Projeto",
+                            "itens": [
+                                {
+                                    "nome": "Planejamento do Projeto (PP)"
+                                },
+                                {
+                                    "nome": "Controle e Monitoração do Projeto (PMC)"
+                                },
+                                {
+                                    "nome": "Gesto do Acordo com o Fornecedor (SAM) "
+                                },
+                                {
+                                    "nome": "Gestão Integrada do Projeto (IPM) "
+                                },
+                                {
+                                    "nome": "Gestão de Requisitos (REQM)"
+                                },
+                                {
+                                    "nome": "Gestão de Riscos (RSKM) "
+                                },
+                                {
+                                    "nome": "Gestão Quantitativa do Projeto (QPM)"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Engenharia",
+                            "itens": [
+                                {
+                                    "nome": "Desenvolvimento de Requisitos (RD) "
+                                },
+                                {
+                                    "nome": "Solução Técnica (TS) "
+                                },
+                                {
+                                    "nome": "Integração do Produto (PI)"
+                                },
+                                {
+                                    "nome": "Verificação (VER) "
+                                },
+                                {
+                                    "nome": "Validação (VAL) "
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Suporte",
+                            "itens": [
+                                {
+                                    "nome": "Gestão da Configuração (CM)"
+                                },
+                                {
+                                    "nome": "Garantia da Qualidade do Processo e do Produto (PPQA) "
+                                },
+                                {
+                                    "nome": "Medição e Análise (MA) "
+                                },
+                                {
+                                    "nome": "Análise de Decisões e Resolução (DAR) "
+                                },
+                                {
+                                    "nome": "Análise e Resolução de Causas (CAR) "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "Design-Patterns",
+                    "topicos": [
+                        {
+                            "nome": "Criação",
+                            "itens": [
+                                {
+                                    "nome": "Builder"
+                                },
+                                {
+                                    "nome": "Abstract Factory"
+                                },
+                                {
+                                    "nome": "Prototype"
+                                },
+                                {
+                                    "nome": "Singleton"
+                                },
+                                {
+                                    "nome": "Factory Method"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Estrutura",
+                            "itens": [
+                                {
+                                    "nome": "Adapter"
+                                },
+                                {
+                                    "nome": "Bridge"
+                                },
+                                {
+                                    "nome": "Composite"
+                                },
+                                {
+                                    "nome": "Decorator"
+                                },
+                                {
+                                    "nome": "Facade"
+                                },
+                                {
+                                    "nome": "Flyweight"
+                                },
+                                {
+                                    "nome": "Proxy"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Comportamento",
+                            "itens": [
+                                {
+                                    "nome": "Chain of responsibility"
+                                },
+                                {
+                                    "nome": "Command"
+                                },
+                                {
+                                    "nome": "Interpreter"
+                                },
+                                {
+                                    "nome": "Iterator"
+                                },
+                                {
+                                    "nome": "Mediator"
+                                },
+                                {
+                                    "nome": "Memento"
+                                },
+                                {
+                                    "nome": "Observer"
+                                },
+                                {
+                                    "nome": "State"
+                                },
+                                {
+                                    "nome": "Strategy"
+                                },
+                                {
+                                    "nome": "Template method"
+                                },
+                                {
+                                    "nome": "Visitor"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "MR-MPS-SW-2021",
+                    "topicos": [
+                        {
+                            "nome": "Projeto",
+                            "itens": [
+                                {
+                                    "nome": "Gerência de Projetos"
+                                },
+                                {
+                                    "nome": "Engenharia de Requisitos"
+                                },
+                                {
+                                    "nome": "Projeto e Construção de Produto"
+                                },
+                                {
+                                    "nome": "Integração de Produto"
+                                },
+                                {
+                                    "nome": "Verificação e Validação"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Organizacionais",
+                            "itens": [
+                                {
+                                    "nome": "Gerência de Recursos Humanos"
+                                },
+                                {
+                                    "nome": "Gerência de Configuração"
+                                },
+                                {
+                                    "nome": "Gerência Organizacional"
+                                },
+                                {
+                                    "nome": "Gerência de Processos"
+                                },
+                                {
+                                    "nome": "Medição"
+                                },
+                                {
+                                    "nome": "Aquisição"
+                                },
+                                {
+                                    "nome": "Gerência de Decisões"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "PMBOK-6",
+                    "topicos": [
+                        {
+                            "nome": "Iniciação",
+                            "itens": [
+                                {
+                                    "nome": "Desenvolver o termo de abertura do projeto"
+                                },
+                                {
+                                    "nome": "Identificar as partes interessadas"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Planejamento",
+                            "itens": [
+                                {
+                                    "nome": "Desenvolver o plano de gerenciamento do projeto"
+                                },
+                                {
+                                    "nome": "Planejar o gerenciamento do escopo"
+                                },
+                                {
+                                    "nome": "Coletar os requisitos"
+                                },
+                                {
+                                    "nome": "Definir o escopo"
+                                },
+                                {
+                                    "nome": "Criar a EAP"
+                                },
+                                {
+                                    "nome": "Planejar o gerenciamento do cronograma"
+                                },
+                                {
+                                    "nome": "Definir as Atividades"
+                                },
+                                {
+                                    "nome": "Sequenciar as Atividades"
+                                },
+                                {
+                                    "nome": "Estimar as durações das atividades"
+                                },
+                                {
+                                    "nome": "Desenvolver o Cronograma"
+                                },
+                                {
+                                    "nome": "Planejar o gerenciamento dos custos"
+                                },
+                                {
+                                    "nome": "Estimar os custos"
+                                },
+                                {
+                                    "nome": "Determinar o orçamento"
+                                },
+                                {
+                                    "nome": "Planejar o gerenciamento da qualidade"
+                                },
+                                {
+                                    "nome": "Planejar o gerenciamento dos recursos"
+                                },
+                                {
+                                    "nome": "Estimar os recursos das atividades"
+                                },
+                                {
+                                    "nome": "Planejar o gerenciamento das comunicações"
+                                },
+                                {
+                                    "nome": "Planejar o gerenciamento dos riscos"
+                                },
+                                {
+                                    "nome": "Identificar os riscos"
+                                },
+                                {
+                                    "nome": "Realizar a análise qualitativa dos riscos"
+                                },
+                                {
+                                    "nome": "Realizar a análise quantitativa dos riscos"
+                                },
+                                {
+                                    "nome": "Planejar as respostas aos riscos"
+                                },
+                                {
+                                    "nome": "Planejar o gerenciamento das aquisições"
+                                },
+                                {
+                                    "nome": "Planejar o engajamento das partes interessadas"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Execução",
+                            "itens": [
+                                {
+                                    "nome": "Orientar e gerenciar o trabalho do projeto"
+                                },
+                                {
+                                    "nome": "Gerenciar o conhecimento do projeto"
+                                },
+                                {
+                                    "nome": "Gerenciar a qualidade"
+                                },
+                                {
+                                    "nome": "Adquirir recursos"
+                                },
+                                {
+                                    "nome": "Desenvolver a equipe"
+                                },
+                                {
+                                    "nome": "Gerenciar a equipe"
+                                },
+                                {
+                                    "nome": "Gerenciar as comunicações"
+                                },
+                                {
+                                    "nome": "Implementar respostas aos riscos"
+                                },
+                                {
+                                    "nome": "Conduzir as aquisições"
+                                },
+                                {
+                                    "nome": "Gerenciar o engajamento das partes interessadas"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Monitoramento e controle",
+                            "itens": [
+                                {
+                                    "nome": "Monitorar e controlar o trabalho do projeto"
+                                },
+                                {
+                                    "nome": "Realizar o controle integrado de mudanças"
+                                },
+                                {
+                                    "nome": "Validar o escopo"
+                                },
+                                {
+                                    "nome": "Controlar o escopo"
+                                },
+                                {
+                                    "nome": "Controlar o Cronograma"
+                                },
+                                {
+                                    "nome": "Controlar os custos"
+                                },
+                                {
+                                    "nome": "Controlar a qualidade"
+                                },
+                                {
+                                    "nome": "Controlar os Recursos"
+                                },
+                                {
+                                    "nome": "Monitorar as comunicações"
+                                },
+                                {
+                                    "nome": "Monitorar os riscos"
+                                },
+                                {
+                                    "nome": "Controlar as aquisições"
+                                },
+                                {
+                                    "nome": "Monitorar o engajamento das partes interessadas"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Encerramento",
+                            "itens": [
+                                {
+                                    "nome": "Encerrar o projeto ou fase"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "COBIT-2019",
                     "topicos": [
                         {
                             "nome": "[EDM] Avaliar, Dirigir e Monitorar",
@@ -342,6 +892,151 @@
             "assuntos": [
                 {
                     "nome": "atos",
+                    "topicos": [
+                        {
+                            "nome": "Ato válido",
+                            "itens": [
+                                {
+                                    "nome": "praticado com todos os requisitos legais"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Ato nulo",
+                            "itens": [
+                                {
+                                    "nome": "sofre vício insanável em alguns dos requisitos"
+                                },
+                                {
+                                    "nome": "não possível de correção"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Ato anulável",
+                            "itens": [
+                                {
+                                    "nome": "apresenta vício sanável"
+                                },
+                                {
+                                    "nome": "é passível de convalidação desde que não lesivo ao patrimônio público e terceiros "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "COBIT"
+                }
+            ]
+        },
+        {
+            "nome": "ray",
+            "assuntos": [
+                {
+                    "nome": "TATU-PMBOK-6",
+                    "topicos": [
+                        {
+                            "nome": "Iniciação",
+                            "itens": [
+                                {
+                                    "nome": "Desenvolver o termo de abertura do projeto"
+                                },
+                                {
+                                    "nome": "Identificar as partes interessadas"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Planejamento",
+                            "itens": [
+                                {
+                                    "nome": "Desenvolver o plano de gerenciamento do projeto"
+                                },
+                                {
+                                    "nome": "Coletar os requisitos"
+                                },
+                                {
+                                    "nome": "Definir o escopo"
+                                },
+                                {
+                                    "nome": "Criar a EAP"
+                                },
+                                {
+                                    "nome": "Definir as Atividades"
+                                },
+                                {
+                                    "nome": "Sequenciar as Atividades"
+                                },
+                                {
+                                    "nome": "Estimar as durações das atividades"
+                                },
+                                {
+                                    "nome": "Desenvolver o Cronograma"
+                                },
+                                {
+                                    "nome": "Estimar os custos"
+                                },
+                                {
+                                    "nome": "Determinar o orçamento"
+                                },
+                                {
+                                    "nome": "Estimar os recursos das atividades"
+                                },
+                                {
+                                    "nome": "Identificar os riscos"
+                                },
+                                {
+                                    "nome": "Realizar a análise qualitativa dos riscos"
+                                },
+                                {
+                                    "nome": "Realizar a análise quantitativa dos riscos"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Execução",
+                            "itens": [
+                                {
+                                    "nome": "Orientar e gerenciar o trabalho do projeto"
+                                },
+                                {
+                                    "nome": "Adquirir recursos"
+                                },
+                                {
+                                    "nome": "Desenvolver a equipe"
+                                },
+                                {
+                                    "nome": "Implementar respostas aos riscos"
+                                },
+                                {
+                                    "nome": "Conduzir as aquisições"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Monitoramento e controle",
+                            "itens": [
+                                {
+                                    "nome": "Realizar o controle integrado de mudanças"
+                                },
+                                {
+                                    "nome": "Validar o escopo"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Encerramento",
+                            "itens": [
+                                {
+                                    "nome": "Encerrar o projeto ou fase"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "tatu-teste",
                     "topicos": [
                         {
                             "nome": "Ato válido",

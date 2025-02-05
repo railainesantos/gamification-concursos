@@ -272,6 +272,131 @@
                         }
                     ]
                 },
+
+                {
+                    "nome": "itil-v4-res",
+                    "topicos": [
+                        {
+                            "nome": "gerenciamento-geral",
+                            "itens": [
+                                {
+                                    "nome": "Arquitetura"
+                                },
+                                {
+                                    "nome": "Melhoria contínua"
+                                },
+                                {
+                                    "nome": "Segurança da informação"
+                                },
+                                {
+                                    "nome": "Conhecimento"
+                                },
+                                {
+                                    "nome": "Medição e relatórios"
+                                },
+                                {
+                                    "nome": "Mudança organizacional"
+                                },
+                                {
+                                    "nome": "Portfólio"
+                                },
+                                {
+                                    "nome": "Projetos"
+                                },
+                                {
+                                    "nome": "Relacionamento"
+                                },
+                                {
+                                    "nome": "Riscos"
+                                },
+                                {
+                                    "nome": "Financeiro de serviços"
+                                },
+                                {
+                                    "nome": "Estratégia"
+                                },
+                                {
+                                    "nome": "Fornecedor"
+                                },
+                                {
+                                    "nome": "Talento e força de trabalho"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "gerenciamento-de-servicos",
+                            "itens": [
+                                {
+                                    "nome": "Disponibilidade"
+                                },
+                                {
+                                    "nome": "Análise de negócios"
+                                },
+                                {
+                                    "nome": "Desempenho e capacidade"
+                                },
+                                {
+                                    "nome": "Controle de mudanças"
+                                },
+                                {
+                                    "nome": "Incidentes"
+                                },
+                                {
+                                    "nome": "Ativos de TI"
+                                },
+                                {
+                                    "nome": "Eventos e monitoramento"
+                                },
+                                {
+                                    "nome": "Problemas"
+                                },
+                                {
+                                    "nome": "Liberação"
+                                },
+                                {
+                                    "nome": "Catálogo de serviços"
+                                },
+                                {
+                                    "nome": "Configuração de serviço"
+                                },
+                                {
+                                    "nome": "Continuidade de serviço"
+                                },
+                                {
+                                    "nome": "Desenho de serviço"
+                                },
+                                {
+                                    "nome": "Central de serviço"
+                                },
+                                {
+                                    "nome": "Nível de serviço"
+                                },
+                                {
+                                    "nome": "Requisições de serviço"
+                                },
+                                {
+                                    "nome": "Teste e validação de serviço"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "gerenciamento-tecnico",
+                            "itens": [
+                                {
+                                    "nome": "Implantação"
+                                },
+                                {
+                                    "nome": "Plataforma e infraestrutura"
+                                },
+                                {
+                                    "nome": "Desenvolvimento de software"
+                                }
+                            ]
+                        }
+                    ]
+                },
+
+
                 {
                     "nome": "cmmi-dev-2.0",
                     "topicos": [
@@ -739,7 +864,7 @@
                     "nome": "COBIT-2019",
                     "topicos": [
                         {
-                            "nome": "[EDM] Avaliar, Dirigir e Monitorar",
+                            "nome": "[EDM] Avaliar, Dirigir e Monitorar (5)",
                             "itens": [
                                 {
                                     "nome": "Definição e Manutenção de um Framework  de Governança Assegurada."
@@ -751,7 +876,7 @@
                                     "nome": "Otimização de Riscos Assegurada"
                                 },
                                 {
-                                    "nome": "Entrega de Benefícios Assegurada"
+                                    "nome": "Otimização de Recursos Assegurada"
                                 },
                                 {
                                     "nome": "Engajamento com as Partes Assegurada"
@@ -759,7 +884,7 @@
                             ]
                         },
                         {
-                            "nome": "[APO] Alinhar, Planejar e Organizar",
+                            "nome": "[APO] Alinhar, Planejar e Organizar(14)",
                             "itens": [
                                 {
                                     "nome": "Framework de Gestão de TI Gerenciado"
@@ -806,7 +931,7 @@
                             ]
                         },
                         {
-                            "nome": "[BAI] Construir, Adquirir e Implementar",
+                            "nome": "[BAI] Construir, Adquirir e Implementar(11)",
                             "itens": [
                                 {
                                     "nome": "Programas Gerenciados"
@@ -844,7 +969,7 @@
                             ]
                         },
                         {
-                            "nome": "[DSS] Entregar, Servir e Suportar",
+                            "nome": "[DSS] Entregar, Servir e Suportar(6)",
                             "itens": [
                                 {
                                     "nome": "Operações Gerenciadas"
@@ -867,7 +992,7 @@
                             ]
                         },
                         {
-                            "nome": "[MEA] Monitorar, Avaliar e Analisar",
+                            "nome": "[MEA] Monitorar, Avaliar e Analisar (4)",
                             "itens": [
                                 {
                                     "nome": "Monitoração do Desempenho e da Conformidade  Gerenciado"
@@ -884,7 +1009,280 @@
                             ]
                         }
                     ]
-                }
+                },
+                
+                
+                {
+                    "nome": "COBIT-2019-DES",
+                    "topicos": [
+                        {
+                            "nome": "[EDM] Avaliar, Dirigir e Monitorar (5)",
+                            "itens": [
+                                {
+                                    "nome": "Framework  de Governança"
+                                },
+                                {
+                                    "nome": "Benefícios"
+                                },
+                                {
+                                    "nome": "Riscos"
+                                },
+                                {
+                                    "nome": "Recursos"
+                                },
+                                {
+                                    "nome": "Partes"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "[APO] Alinhar, Planejar e Organizar(14)",
+                            "itens": [
+                                {
+                                    "nome": "Gestão de TI"
+                                },
+                                {
+                                    "nome": "Estratégia"
+                                },
+                                {
+                                    "nome": "Arquitetura Empresarial"
+                                },
+                                {
+                                    "nome": "Inovação"
+                                },
+                                {
+                                    "nome": "Portfólio"
+                                },
+                                {
+                                    "nome": "Orçamento e Custos"
+                                },
+                                {
+                                    "nome": "Recursos Humanos"
+                                },
+                                {
+                                    "nome": "Relacionamentos"
+                                },
+                                {
+                                    "nome": "Acordos de Serviço"
+                                },
+                                {
+                                    "nome": "Terceiros"
+                                },
+                                {
+                                    "nome": "Qualidade"
+                                },
+                                {
+                                    "nome": "Risco"
+                                },
+                                {
+                                    "nome": "Segurança"
+                                },
+                                {
+                                    "nome": "Dados"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "[BAI] Construir, Adquirir e Implementar(11)",
+                            "itens": [
+                                {
+                                    "nome": "Programas"
+                                },
+                                {
+                                    "nome": "Requisitos"
+                                },
+                                {
+                                    "nome": "Soluções"
+                                },
+                                {
+                                    "nome": "Capacidade e Disponibilidade"
+                                },
+                                {
+                                    "nome": "Mudanças Organizacionais"
+                                },
+                                {
+                                    "nome": "Mudanças de TI "
+                                },
+                                {
+                                    "nome": "Aceite e Transformação de Mudanças de TI "
+                                },
+                                {
+                                    "nome": "Conhecimento"
+                                },
+                                {
+                                    "nome": "Ativos"
+                                },
+                                {
+                                    "nome": "Configuração"
+                                },
+                                {
+                                    "nome": "Projetos"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "[DSS] Entregar, Servir e Suportar(6)",
+                            "itens": [
+                                {
+                                    "nome": "Operações"
+                                },
+                                {
+                                    "nome": "Incidentes e Requisições de Serviço"
+                                },
+                                {
+                                    "nome": "Problemas"
+                                },
+                                {
+                                    "nome": "Continuidade"
+                                },
+                                {
+                                    "nome": "Serviços de Segurança"
+                                },
+                                {
+                                    "nome": "Processos de Negócio "
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "[MEA] Monitorar, Avaliar e Analisar (4)",
+                            "itens": [
+                                {
+                                    "nome": "Conformidade"
+                                },
+                                {
+                                    "nome": "Sistema de Controle Interno"
+                                },
+                                {
+                                    "nome": "Regulações Externas"
+                                },
+                                {
+                                    "nome": "Garantia"
+                                }
+                            ]
+                        }
+                    ]
+                } ,
+                
+                
+                {
+                    "nome": "COBIT-2019-RAY",
+                    "topicos": [
+                        {
+                            "nome": "[EDM] Avaliar, Dirigir e Monitorar (5)",
+                            "itens": [
+                                {
+                                    "nome": "Framework  de Governança"
+                                },
+                                {
+                                    "nome": "Benefícios"
+                                },
+                                {
+                                    "nome": "Riscos"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "[APO] Alinhar, Planejar e Organizar(14)",
+                            "itens": [
+                                {
+                                    "nome": "Gestão de TI"
+                                },
+                                {
+                                    "nome": "Estratégia"
+                                },
+                                {
+                                    "nome": "Inovação"
+                                },
+                                {
+                                    "nome": "Portfólio"
+                                },
+                                {
+                                    "nome": "Orçamento e Custos"
+                                },
+                                {
+                                    "nome": "Recursos Humanos"
+                                },
+                                {
+                                    "nome": "Relacionamentos"
+                                },
+                                {
+                                    "nome": "Terceiros"
+                                },
+                                {
+                                    "nome": "Qualidade"
+                                },
+                                {
+                                    "nome": "Risco"
+                                },
+                                {
+                                    "nome": "Dados"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "[BAI] Construir, Adquirir e Implementar(11)",
+                            "itens": [
+                                {
+                                    "nome": "Programas"
+                                },
+                                {
+                                    "nome": "Requisitos"
+                                },
+                                {
+                                    "nome": "Soluções"
+                                },
+                                {
+                                    "nome": "Mudanças Organizacionais"
+                                },
+                                {
+                                    "nome": "Mudanças de TI "
+                                },
+                                {
+                                    "nome": "Configuração"
+                                },
+                                {
+                                    "nome": "Projetos"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "[DSS] Entregar, Servir e Suportar(6)",
+                            "itens": [
+                                {
+                                    "nome": "Operações"
+                                },
+                                {
+                                    "nome": "Incidentes e Requisições de Serviço"
+                                },
+                                {
+                                    "nome": "Problemas"
+                                },
+                                {
+                                    "nome": "Continuidade"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "[MEA] Monitorar, Avaliar e Analisar (4)",
+                            "itens": [
+                                {
+                                    "nome": "Conformidade"
+                                },
+                                {
+                                    "nome": "Sistema de Controle Interno"
+                                },
+                                {
+                                    "nome": "Regulações Externas"
+                                },
+                                {
+                                    "nome": "Garantia"
+                                }
+                            ]
+                        }
+                    ]
+                }     
+                
+                
             ]
         },
         {

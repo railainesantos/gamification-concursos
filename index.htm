@@ -4,9 +4,6 @@
 <head>
   <title>Gamification</title>
 
-  <!-- Bootstrap CSS CDN -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B4gt1jrGC7Jh4AgE2w7t+o9U3M5nI5ew7F8scXHOB1KYYzkVkv0z7pQhYdRi9g6i4" crossorigin="anonymous">
-
   <link href="custom/style.css" rel="stylesheet" type="text/css">
   <script type="text/javascript" src="custom/jquery-1.js"></script>
   <script type="text/javascript" src="custom/ui.js"></script>
@@ -22,49 +19,40 @@
     gtag('config', 'UA-222710519-1');
   </script>
 
+
 </head>
 
-<body class="bg-light">
-
-  <!-- Menu Section -->
-  <div id="menu2" class="bg-primary text-white text-center py-3">
-    <span class="h3">Gamification</span>
+<body>
+  <div id="menu2">
+    <span class="containerTitle2">Gamification</span>
   </div>
 
-  <div id="menu" class="d-flex justify-content-center py-2">
-    <!-- Dynamic Menu goes here -->
+  <div id="menu">
   </div>
 
-  <!-- Main Navigation -->
-  <div id="menu3" class="bg-secondary text-white p-2">
-    <div class="container">
-      <a href="?" class="text-white">Início</a> |
-      <a href="#" id="new" class="text-white">Iniciar nova avaliação</a> |
-      <a href="#" id="shu" class="text-white">Randomizar</a> |
-      <a href="#" id="result" class="text-white">Conferir resultado</a>
-    </div>
+  <div id="menu3">
+    <a href="?" >Início</a> |
+    <a href="#" id="new">Iniciar nova avaliação</a> |
+    <a href="#" id="shu">Randomizar</a> |
+    <a href="#" id="result">Conferir resultado</a>
   </div>
 
-  <!-- Content Section -->
-  <div id="mixed" class="container mt-4">
-    <span class="h4">Gamificação</span>
-    <ul id="masterList" class="list-group">
-      <!-- Dynamic Questions List goes here -->
-    </ul>
-  </div>
+  <ul style="position: relative;" class="ui-sortable" id="masterList">
+      <div id="mixed" class="panel-content-ui">
+        <span class="containerTitle">Gamificação</span>
+          <ul id="0">         
+          </ul>
+      </div>
+  </ul>
 
-  <!-- Footer Section -->
-  <div id="footer" class="bg-dark text-white text-center py-3">
-    @railainesantos em <a href="https://github.com/railainesantos/gamification-concursos" class="text-white" target="_blank">GitHub</a>
-  </div>
-
-  <!-- Bootstrap JS and dependencies -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy8u8tX2XzB6RvV6nWz9gf6xsIv/k4I8J9ZJqNUm" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0p5dV0kA42cQPR0R/pn65RmxaFqZXFhGRNgnQzvszTH3wSik" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0p5dV0kA42cQPR0R/pn65RmxaFqZXFhGRNgnQzvszTH3wSik" crossorigin="anonymous"></script>
+  <div id="footer">@railainesantos em https://github.com/railainesantos/gamification-concursos </div>
 
   <script>
     var json = {};
+    //var url = "https://www.npoint.io/docs/486f24b62433e3c19087";
+    //var url = "https://api.npoint.io/486f24b62433e3c19087.json"; em 25/09/2023
+    //var url = "https://api.npoint.io/6b5a4678171f39875669.json";
+ 
     var url = "https://api.npoint.io/aed2b7d20ce08f97cae8"; //var url = "https://www.npoint.io/docs/aed2b7d20ce08f97cae8";
     $(document).ready(function() {  
          $.getJSON(url, 
@@ -89,40 +77,48 @@
       
           if ( param_disciplina == null ){
               $.each(json.disciplinas, function (index, item) {
-                html += "<a href=\"" + "\?disciplina=" + (item.nome) + "\" class=\"btn btn-link\">" + (item.nome.toUpperCase()) + "</a>";
+                html += "<a href=\"" + "\?disciplina=" + (item.nome) + "\" \"> " + (item.nome.toUpperCase()) + "</a>";
                 html += " | ";
               });
           } else if (( param_disciplina != null )){
             var disciplina = json.disciplinas.find(el => el.nome === encoded_param_disciplina);
               $.each(disciplina.assuntos, function (index, item) {
-                html += "<a href=\"" + "\?disciplina=" + encoded_param_disciplina + "&"+ "assunto=" + (item.nome) +"\" class=\"btn btn-link\">" + (item.nome.toUpperCase()) + "</a>";
+                html += "<a href=\"" + "\?disciplina=" + encoded_param_disciplina + "&"+ "assunto=" + (item.nome) +"\" \"> " + (item.nome.toUpperCase()) + "</a>";
                 html += " | ";
               });
+          } else {
+         
           }
+  
 
           $("#menu").append(html);
+
 
           if ((param_disciplina != null ) && (param_assunto != null )){
               if (param_assunto != null){    
                 $.each(assunto.topicos, function (index, item) {
-                  $("#masterList").append("<div class=\"panel panel-default mb-3\"> <div class=\"panel-heading\"><span class=\"h5\">" + (item.nome.toUpperCase()) + "</span></div> <ul id=\""+ (index+1) + "\" class=\"list-group\"><li class=\"list-group-item unmovable\"></li></ul></div>");       
+                  $("#masterList").append("<div class=\"pane\"> <span class=\"containerTitle\">"+ (item.nome.toUpperCase()) + "</span> <ul id=\""+ (index+1) + "\"><li class=\"unmovable\"></li></ul></div>");       
                 });
               };
 
+            $("#0").append();
             var list='';
             if (assunto != null){
               $.each(assunto.topicos, function (index, topico) {
                $.each(topico.itens, function (index_2, item) {
-                  list+="<li class=\"list-group-item\" id=\""+ (index+1) + (index_2+1) +"\">" + (item.nome.toUpperCase()) + "</li>";
+                  console.log(item);
+
+                  list+="<li id=\""+ (index+1) + "\" style=\"opacity: 1; border: 1px solid gray;\" value=\""+ (index+1) + (index_2+1) +"\">" + (item.nome.toUpperCase()) + "</li><li class=\"unmovable\"></li>"
                 });            
               });
             };
 
-            $('#0').append(list);
+            $('#0').append(list).shuffle();
             $('#0').find('.correct').each(function(){
               $(this).parent().css('background','#E7E7E7');
               $(this).remove();
             });
+            $('#r').remove();
             $("#masterList").sortable({ items: "li", handle:'.containerTitle', opacity: 0.6, helper: 'clone', forcePlaceholderSize: true,forceHelperSize: true});
           };
         });

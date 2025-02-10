@@ -2,27 +2,28 @@ body {
 	font-family: "Lucida Grande", "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif, Verdana, Arial;
 	font-size:90%;
 	margin:0;
+	background-color: #b0c4de; 
 }
 * {  -moz-border-radius: 5px;
      -webkit-border-radius: 5px; }
-a:link {text-decoration:none;color:#ffffff;}
-a:active {text-decoration:none;color:#ffffff;}
-a:visited {text-decoration:none;color:#ffffff;}
-a:hover {text-decoration:underline;color:#ffffff;}
+a:link {text-decoration:none;color:#00008b;} 
+a:active {text-decoration:none;color:#00008b;}
+a:visited {text-decoration:none;color:#00008b;}
+a:hover {text-decoration:underline;color:#00008b;}
 li {	list-style-type:none; 
 		border:solid 1px gray;
 		margin:0 4px 1px -11px;
 		padding:5px; 
 		font-size:11px;
 		cursor:move; 
-		background:#E7E7E7;
+		background:#d3d3d3; 
 		text-shadow:1px 1px 1px #FFF;
 }
 li:hover { background:#FFF; 
 }
 ul {padding-left:1em;margin-left:0em;}
 .pane ul {margin-bottom:4px;}
-.pane {background-color:#0d5d9d;;
+.pane {background-color:#87cefa; 
 	   width:170px;
 	   padding:5px; 
 	   min-height:78px;
@@ -40,18 +41,18 @@ li span {font-weight:bold;
 		width:100%; 
 		margin:0px;
 		color:#EEE;
-		text-shadow:-1px 1px 1px #000;
+		text-shadow:-1px 1px 1px #FFF;
 }
-#head a { color: #FFF; 
+#head a { color: #00008b; 
 		  text-decoration: none;
 }
-#head a:hover { color: #ffffff; 
+#head a:hover { color: #00008b; 
 		  text-decoration: none;
 }
 
 div {
 	float:left;
-	background: #0d5d9d;
+	background: #87cefa; 
 	margin-right:5px;
 	width:130px;
 	border:1px solid #A52;
@@ -64,21 +65,21 @@ div {
 	font-weight:bold;
 	padding:7px 5px;
 	text-align:center;
-	color: #FFF;
-	text-shadow:1px 1px 2px #000;	
+	color: #00008b; 
+	text-shadow:1px 1px 2px #FFF;	
 	border-bottom: solid 1px #DDD;
 	
 }
 .containerTitle2 { 
 	display:block;
 	font-size:20px;
-	font-weight:lighter
+	font-weight:lighter;
 	padding:7px 5px;
 	text-align:center;
-	color: #ffffff;
-	text-shadow:1px 1px 2px #000;	
+	color: #00008b; 
+	text-shadow:1px 1px 2px #FFF;	
 	border-bottom: solid 1px #DDD;
-	background: #0d5d9d;
+	background: #87cefa; 
 }
 .containerTitle3 { 
 	display:block;
@@ -86,13 +87,13 @@ div {
 	font-weight:lighter;
 	padding:5px 5px;
 	text-align:left;
-	color: #ffffff;
-	text-shadow:1px 1px 2px #000;	
+	color: #00008b; 
+	text-shadow:1px 1px 2px #FFF;	
 	border-bottom: solid 1px #DDD;
-	background-color: #0d5d9d;
+	background-color: #87cefa; 
 }
 #mixed {
-	background: #0d66a6;
+	background: #add8e6; 
 	width:255px;
 	margin-right:30px;
 	padding:10px;
@@ -138,8 +139,8 @@ small {
 }
 h1 { font-size:20px;
 	margin-bottom:-2px; 
-	text-shadow:
-   }
+	text-shadow:1px 1px 1px #FFF;
+}
 h1 span {
 	font-size:20px;
 }
@@ -189,7 +190,7 @@ text-decoration:none;
 	margin-top:10px;
 	margin-bottom:10px;
 	width:96%;
-	color: #ffffff;
+	color: #00008b; 
 	text-align: center;
 	padding:10px;
 	
@@ -205,11 +206,11 @@ text-decoration:none;
 	
 }
 #menu a, #menu3 a {
-	color : #000;
+	color : #6b006b; 
 }
 
 #menu a:hover, #menu3 a:hover {
-	color : #ffffff;
+	color : #ff00ff; 
 }
 
 #masterList {

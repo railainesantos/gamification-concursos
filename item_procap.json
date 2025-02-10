@@ -1,0 +1,504 @@
+{
+    "disciplinas": [
+        {
+            "nome": "gestao-organizacao",
+            "assuntos": [
+                {
+                    "nome": "orgaos-colegiados",
+                    "topicos": [
+                        {
+                            "nome": "Comitê de Estabilidade Financeira (Comef)",
+                            "itens": [
+                                {
+                                    "nome": "Orientar a atuação do Banco Central no Coremec e outros fóruns nacionais e internacionais."
+                                },
+                                {
+                                    "nome": "Definir estratégias e diretrizes relacionadas à estabilidade financeira."
+                                },
+                                {
+                                    "nome": "Decidir valores relacionados ao accpbrasil."
+                                },
+                                {
+                                    "nome": "Prevenir riscos sistêmicos."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Comitê de Governança, Riscos e Controles (GRC)",
+                            "itens": [
+                                {
+                                    "nome": "Estabelecer diretrizes e estratégias de governança corporativa, gestão de riscos e conformidade."
+                                },
+                                {
+                                    "nome": "Definir parâmetros para a administração das reservas de ouro e moeda estrangeira."
+                                },
+                                {
+                                    "nome": "Aprovar e monitorar indicadores de gestão, metas e o plano estratégico institucional."
+                                },
+                                {
+                                    "nome": "Supervisionar projetos, programas corporativos e prestação de contas ao TCU."
+                                },
+                                {
+                                    "nome": "Decidir sobre propostas do CGE."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Comitê de Política Monetária (Copom)",
+                            "itens": [
+                                {
+                                    "nome": "Definir orientações e diretrizes para a política monetária."
+                                },
+                                {
+                                    "nome": "Estabelecer a meta da taxa Selic."
+                                },
+                                {
+                                    "nome": "Divulgar o relatório de inflação."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Comitê de Administração (Coad)",
+                            "itens": [
+                                {
+                                    "nome": "Deliberar sobre gestão de pessoas, recursos materiais, orçamento, segurança institucional e tecnologia da informação."
+                                },
+                                {
+                                    "nome": "Aprovar regulamentações, programas de recrutamento, e seleção de candidatos para pós-graduação."
+                                },
+                                {
+                                    "nome": "Decidir sobre critérios administrativos, financeiros e contábeis, além de políticas de aplicação de recursos."
+                                },
+                                {
+                                    "nome": "Autorizar celebração de acordos acima de R$ 20 milhões."
+                                },
+                                {
+                                    "nome": "Alterar estrutura organizacional e regulamentos relacionados à segurança e tecnologia da informação."
+                                }
+                            ]
+                        }
+                    ]
+                },
+
+                {
+                    "nome": "areas-diretoria-colegiada",
+                    "topicos": [
+                        {
+                            "nome": "Presidência (Presi)",
+                            "itens": [
+                                {
+                                    "nome": "Representar o Banco Central no Brasil e no exterior."
+                                },
+                                {
+                                    "nome": "Participar, com direito a voto, das reuniões do Conselho Monetário Nacional (CMN)."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Área do Diretor de Administração (Dirad)",
+                            "itens": [
+                                {
+                                    "nome": "Gerir orçamento, finanças, patrimônio, pessoal, segurança institucional e organização administrativa."
+                                },
+                                {
+                                    "nome": "Prover cédulas e moedas ao Sistema Financeiro Nacional."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Área do Diretor de Assuntos Internacionais e de Gestão de Riscos Corporativos (Direx)",
+                            "itens": [
+                                {
+                                    "nome": "Fomentar a inserção e o relacionamento internacional do BC."
+                                },
+                                {
+                                    "nome": "Acompanhar a economia internacional e o mercado de ativos no exterior."
+                                },
+                                {
+                                    "nome": "Gerenciar riscos financeiros e não financeiros do BC."
+                                },
+                                {
+                                    "nome": "Garantir continuidade de negócios e conformidade institucional."
+                                },
+                                {
+                                    "nome": "Relacionar-se com outros bancos centrais, organismos e fóruns internacionais."
+                                },
+                                {
+                                    "nome": "Gerir a dimensão de sustentabilidade da agenda estratégica do BC."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Área do Diretor de Fiscalização (Difis)",
+                            "itens": [
+                                {
+                                    "nome": "Supervisionar instituições bancárias e não bancárias autorizadas pelo BC."
+                                },
+                                {
+                                    "nome": "Manter a estabilidade econômica-financeira das instituições fiscalizadas."
+                                },
+                                {
+                                    "nome": "Celebrar acordos de cooperação com autoridades internacionais de supervisão."
+                                },
+                                {
+                                    "nome": "Garantir cumprimento da regulação prudencial e gestão de riscos das instituições."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Área do Diretor de Organização do Sistema Financeiro e de Resolução (Diorf):",
+                            "itens": [
+                                {
+                                    "nome": "Autorizar funcionamento de instituições reguladas pelo BC e seus atos societários."
+                                },
+                                {
+                                    "nome": "Conduzir processos administrativos sancionadores."
+                                },
+                                {
+                                    "nome": "Lidar com a resolução de instituições financeiras em dificuldades."
+                                },
+                                {
+                                    "nome": "Gerenciar infraestruturas do mercado financeiro e arranjos de pagamentos, incluindo o Pix."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Área do Diretor de Política Econômica (Dipec)",
+                            "itens": [
+                                {
+                                    "nome": "Desenvolver estudos e modelos para o regime de metas para a inflação."
+                                },
+                                {
+                                    "nome": "Avaliar a situação econômica do país e propor diretrizes de política econômica."
+                                },
+                                 {   "nome": "Coordenar apresentações macroeconômicas e sugestões de política monetária."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Área do Diretor de Política Monetária (Dipom):",
+                            "itens": [
+                                 {
+                                    "nome": "Operacionalizar políticas monetárias e cambiais."
+                                },
+                                 {
+                                    "nome": "Administrar reservas internacionais."
+                                },
+                                 {
+                                    "nome": "Gerenciar sistemas de transferência de fundos (STR e SPI/Pix)."
+                                },
+                                 {
+                                    "nome": "Administrar o Selic, onde estão depositados os títulos públicos federais."
+                                },
+                                {
+                                    "nome": "Atuar como emprestador de última instância, fornecendo liquidez ao sistema financeiro."
+                                }
+                           ]
+                        },
+                        {
+                            "nome": "Área do Diretor de Regulação (Dinor):",
+                            "itens": [
+                                {
+                                    "nome": "Elaborar normas relacionadas ao Sistema Financeiro Nacional."
+                                },
+                                {
+                                    "nome": "Regular conduta, contabilidade, governança, produtos e serviços financeiros."
+                                },
+                                {
+                                    "nome": "Implementar recomendações do Comitê de Basileia e regulamentos de câmbio e mercado de capitais internacionais."
+                                },
+                                {
+                                    "nome": "Supervisionar e regulamentar o crédito rural."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Área do Diretor de Relacionamento, Cidadania e Supervisão de Conduta (Direc):",
+                            "itens": [
+                                {
+                                    "nome": "Supervisionar conduta de instituições financeiras e prevenir lavagem de dinheiro."
+                                },
+                                {
+                                    "nome": "Promover cidadania financeira (inclusão financeira, educação financeira e museu de valores)."
+                                },
+                                {
+                                    "nome": "Gerenciar comunicação institucional do BC."
+                                },
+                                {
+                                    "nome": "Atender cidadãos e Poderes Constituídos (reclamações contra instituições financeiras e pedidos de informação)."
+                                },                                  
+                                {  "nome": "Supervisionar a Assessoria Parlamentar e a Ouvidoria Interna."
+                                }
+                            ]
+                        }
+
+
+                    ]
+                },
+                {
+                    "nome": "missao-objetivos",
+                    "topicos": [
+                        {
+                            "nome": "Missão do BC(3)",
+                            "itens": [
+                                {
+                                    "nome": "Garantir a estabilidade do poder de compra da moeda."
+                                },
+                                {
+                                    "nome": "Zelar por um sistema financeiro sólido, eficiente e competitivo."
+                                },
+                                {
+                                    "nome": "Fomentar o bem-estar econômico da sociedade."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Objetivos PEI",
+                            "itens": [
+                                {
+                                    "nome": "Cumprir as metas de inflação estabelecidas pelo CMN."
+                                },
+                                {
+                                    "nome": "Manter a estabilidade financeira nacional."
+                                },
+                                {
+                                    "nome": "Facilitar acesso aos mercados financeiros."
+                                },
+                                {
+                                    "nome": "Melhorar a transparência, a qualidade e o fluxo das informações de mercado e do Banco Central."
+                                },
+                                {
+                                    "nome": "Incentivar a competitividade nos Sistemas Financeiro e de Pagamentos."
+                                },
+                                {
+                                    "nome": "Estimular a poupança e a participação consciente no mercado."
+                                },
+                                {
+                                    "nome": "Promover finanças sustentáveis e contribuir para redução de riscos socioambientais e climáticos na economia e no Sistema Financeiro."
+                                },
+                                {
+                                    "nome": "Aprimorar o Banco Central com inovações, tecnologia e uso eficiente de recursos."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Objetivos do Programa Sistema Financeiro do Futuro(3)",
+                            "itens": [
+                                {
+                                    "nome": "Promover a transformação digital e a competição para ampliar o acesso a transações e serviços financeiros e de pagamentos."
+                                },
+                                {
+                                    "nome": "Aprimorar a resiliência operacional do Sistema Financeiro Nacional (SFN), promovendo ações para o fortalecimento da gestão da resiliência nas entidades supervisionadas."
+                                },
+                                {
+                                    "nome": "Ampliar o alcance da população, em especial do público escolar, a conteúdos de educação financeira, história dos instrumentos de pagamentos, conceitos básicos de economia e de sustentabilidade."
+                                }
+                            ]
+                        }
+
+                    ]
+                },
+
+
+
+
+
+                {
+                    "nome": "agenda-valores",
+                    "topicos": [
+                        {
+                            "nome": "Agenda BC",
+                            "itens": [
+                                {
+                                    "nome": "Inclusão"
+                                },
+                                {
+                                    "nome": "Competitividade"
+                                },
+                                {
+                                    "nome": "Transparência"
+                                },
+                                {
+                                    "nome": "Educação"
+                                },
+                                {
+                                    "nome": "Sustentabilidade"
+                                },                                
+                                {
+                                    "nome": "Excelência"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Valores Organizacionais",
+                            "itens": [
+                                {
+                                    "nome": "Integridade"
+                                },
+                                {
+                                    "nome": "Foco em resultados"
+                                },
+                                {
+                                    "nome": "Abertura para mudanças"
+                                },
+                                {
+                                    "nome": "Excelência"
+                                },
+                                {
+                                    "nome": "Cooperação"
+                                },
+                                {
+                                    "nome": "Responsabilidade socioambiental"
+                                }
+                            ]
+                        }
+
+                    ]
+                }  
+
+
+
+
+
+            ]
+        },
+        {
+            "nome": "sfn",
+            "assuntos": [
+                {
+                    "nome": "entidades-forma",
+                    "topicos": [
+                        {
+                            "nome": "Sociedade Anônima",
+                            "itens": [
+                                {
+                                    "nome": "Bancos Múltiplos com Carteira Comercial."
+                                },
+                                {
+                                    "nome": "Banco Comercial / Banco Cooperativo Comercial."
+                                },
+                                {
+                                    "nome": "Bancos de Investimento (BI)."
+                                },
+                                {
+                                    "nome": "Bancos de Desenvolvimento (BD)."
+                                },
+                                {
+                                    "nome": "Companhias Hipotecárias (CH)."
+                                },
+                                {
+                                    "nome": "Sociedades de Crédito, Financiamento e Investimento (SCFI ou Financeiras)."
+                                },
+                                {
+                                    "nome": "Sociedades de Crédito Imobiliário (SCI)."
+                                },
+                                {
+                                    "nome": "Sociedades de Arrendamento Mercantil (SAM ou leasing)."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Empresa Pública",
+                            "itens": [
+                                {
+                                    "nome": "Caixa Econômica Federal (CEF)."
+                                },
+                                {
+                                    "nome": "Banco Nacional de Desenvolvimento Econômico e Social (BNDES)."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Sociedade anônima de Capital Fechado",
+                            "itens": [
+                                {
+                                    "nome": "Agências de Fomento (AF)."
+                                }
+                            ]
+                        },                        
+                        {
+                            "nome": "Sociedade de Pessoas",
+                            "itens": [
+                                {
+                                    "nome": "Cooperativas de Crédito (CC)."
+                                }
+                            ]
+                        },                       
+                        {
+                            "nome": "Sociedade Civil",
+                            "itens": [
+                                {
+                                    "nome": "Associações de Poupança e Empréstimo (APE)."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Cia. Fechada ou Sociedade por Quotas de Responsabilidade Limitada",
+                            "itens": [
+                                {
+                                    "nome": "Sociedades de Crédito ao Microempreendedor (SCM)"
+                                }
+                            ]
+
+                        }                                                  
+                    ]
+                },
+
+
+
+                {
+                    "nome": "operadores-forma",
+                    "topicos": [
+                        {
+                            "nome": "Sociedade Anônima ou Associação Civil",
+                            "itens": [
+                                {
+                                    "nome": "Bolsa de Mercadorias e Futuros (BMF)"
+                                },
+                                {
+                                    "nome": "Bolsas de Valores (BV)"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "S/A ou Sociedade por Quotas de Responsabilidade Limitada",
+                            "itens": [
+                                {
+                                    "nome": "Sociedades Corretoras de Títulos e Valores Mobiliários (SCTVM)"
+                                },
+                                {
+                                    "nome": "Sociedades Distribuidoras de Títulos e Valores Mobiliários (SDTVM)"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Sociedade anônima",
+                            "itens": [
+                                {
+                                    "nome": "Resseguradores",
+                                    "nome": "Sociedades Seguradoras",
+                                    "nome": "Sociedades de Capitalização",
+                                    "nome": "Entidades Abertas de Previdência Complementar"
+                                }
+                            ]
+                        },                        
+                        {
+                            "nome": "Fundação ou Sociedade Civil sem fins lucrativos",
+                            "itens": [
+                                {
+                                    "nome": "Entidades Fechadas de Previdência Complementar (Fundos de Pensão)"
+                                }
+                            ]
+                        }                                              
+                    ]
+                }      
+
+
+            ]
+        }        
+
+    ]
+}
+
+
+

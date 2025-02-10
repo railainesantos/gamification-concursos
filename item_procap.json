@@ -661,8 +661,6 @@
                         }                                                  
                     ]
                 },
-
-
                 {
                     "nome": "denominacao",
                     "topicos": [
@@ -756,9 +754,164 @@
 
                         }                                                  
                     ]
-                },                
-
-
+                },
+                {
+                    "nome": "periodos",
+                    "topicos": [
+                        {
+                            "nome": "Pós-guerra até as reformas de 1964-1965",
+                            "itens": [
+                                {
+                                    "nome": "Expansão da rede bancária e criação de bancos regionais."
+                                },
+                                {
+                                    "nome": "Criação da Sumoc (1945) como precursor do Banco Central."
+                                },
+                                {
+                                    "nome": "Banco do Brasil atuava como banco central de fato."
+                                },
+                                {
+                                    "nome": "Consolidação do setor bancário com fusões e aumento da rede de agências."
+                                }                               
+                            ]
+                        },
+                        {
+                            "nome": "Das reformas de 1964-1965 até 1988",
+                            "itens": [
+                                {
+                                    "nome": "Lei 4.595/1964: Criou o Banco Central do Brasil (BCB) e o Conselho Monetário Nacional (CMN)."
+                                },
+                                {
+                                    "nome": "Lei 4.380/1964: Criou o Sistema Financeiro da Habitação (SFH)."
+                                },
+                                {
+                                    "nome": "Lei 4.728/1965: Regulamentou o mercado de capitais."
+                                },
+                                {
+                                    "nome": "Lei 6.385/1976: Criou a CVM para fiscalizar valores mobiliários."
+                                },                               
+                                {
+                                    "nome": "Expansão do mercado financeiro e aumento da concentração bancária."
+                                }                                
+                            ]
+                        },
+                        {
+                            "nome": "De 1988 a 1994",
+                            "itens": [
+                                {
+                                    "nome": "Mudança do critério de especialização de instituições para operações."
+                                },
+                                {
+                                    "nome": "Criação dos bancos múltiplos, permitindo atuação em diversos segmentos."
+                                },
+                                {
+                                    "nome": "Constituição de 1988 eliminou o sistema de cartas patentes, facilitando a entrada de novas instituições."
+                                }                            
+                            ]
+                        },
+                        {
+                            "nome": "De 1994 aos dias atuais",
+                            "itens": [
+                                {
+                                    "nome": "Plano Real (1994): Redução da inflação revelou ineficiências do setor financeiro."
+                                },
+                                {
+                                    "nome": "Crise bancária levou à criação do Proer (1995) e do Proes (1996) para reestruturação do SFN."
+                                },
+                                {
+                                    "nome": "Fundo Garantidor de Crédito (FGC): Criado para proteger depositantes."
+                                },
+                                {
+                                    "nome": "Lei 9.447/1997: Ampliou os poderes do Banco Central e reforçou a fiscalização."
+                                }                            
+                            ]
+                        }
+                                            
+                    ]
+                },
+                {
+                    "nome": "operacoes",
+                    "topicos": [
+                        {
+                            "nome": "Bancos de Investimento (BI)",
+                            "itens": [
+                                {
+                                    "nome": "Operações ativas: financiamento de capital de giro e capital fixo, subscrição ou aquisição de títulos e valores mobiliários, depósitos interfinanceiros e repasses de empréstimos externos."
+                                },
+                                {
+                                    "nome": "Operações passivas: depósito a prazo, repasses de recursos externos, internos e vendas de cotas de fundos de investimento."
+                                }                           
+                            ]
+                        },
+                        {
+                            "nome": "Bancos de Desenvolvimento (BD)",
+                            "itens": [
+                                {
+                                    "nome": "Operações ativas: empréstimos e financiamentos (prioritariamente ao setor privado)."
+                                },
+                                {
+                                    "nome": "Operações passivas: depósitos a prazo, empréstimos externos, emissão/endosso de cédulas hipotecárias, emissão de cédulas pignoatícias de debêntures e títulos de desenvolvimento econômico."
+                                }                           
+                            ]
+                        },
+                        {
+                            "nome": "Associações de Poupança e Empréstimo (APE)",
+                            "itens": [
+                                {
+                                    "nome": "Operações ativas: mercado imobiliário + SFH."
+                                },
+                                {
+                                    "nome": "Operações passivas: emissão de letras e cédulas hipotecárias, caderneta de poupança, depósitos interfinanceiros, empréstimos externos."
+                                }                           
+                            ]
+                        },
+                        {
+                            "nome": "Companhias Hipotecárias (CH)",
+                            "itens": [
+                                {
+                                    "nome": "Operações ativas: financiamentos imobiliários residenciais ou comerciais, aquisição de créditos hipotecários, refinanciamentos de créditos hipotecários e repasses de recursos para financiamentos imobiliários."
+                                },
+                                {
+                                    "nome": "Operações passivas: letras hipotecárias, debêntures, empréstimos e financiamentos no país e no exterior."
+                                },                           
+                                {
+                                    "nome": "Operações especiais: administração de créditos hipotecários de terceiros e de fundos de investimento imobiliário."
+                                }                           
+                            ]
+                        },
+                        {
+                            "nome": "Sociedades de Crédito, Financiamento e Investimento (SCFI ou Financeiras)",
+                            "itens": [
+                                {
+                                    "nome": "Operações passivas: aceite e colocação de letras de câmbio, recibos de deósitos bancários."
+                                }                       
+                            ]
+                        },
+                        {
+                            "nome": "Sociedades de Crédito Imobiliário (SCI)",
+                            "itens": [
+                                {
+                                    "nome": "Operações ativas: financiamento para construção de habitações, crédito para compra ou construção de casa própria e financiamento de capital de giro a empresas incorporadoras, produtoras e distribuidoras de material de construção."
+                                },
+                                {
+                                    "nome": "Operações passivas: depósitos de poupança, emissão de letras e cédulas hipotecárias, depósitos interfinanceiros."
+                                }                           
+                            ]
+                        },
+                        {
+                            "nome": "Sociedades de Arrendamento Mercantil (SAM ou leasing)",
+                            "itens": [
+                                {
+                                    "nome": "Operações ativas: operações de arrendamento mercantil de bens móveis, de produção nacional ou estrangeira, e bens imóveis adquiridos pela arrendadora, para uso próprio do arrendatário."
+                                },
+                                {
+                                    "nome": "Operações passivas: emissão de debêntures, dívida externa, empréstimos e financiamentos de IFs."
+                                }                           
+                            ]
+                        }                                                                                                                        
+                                            
+                    ]
+                }                
 
             ]
         },

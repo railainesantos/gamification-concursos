@@ -298,11 +298,6 @@
 
                     ]
                 },
-
-
-
-
-
                 {
                     "nome": "agenda-valores",
                     "topicos": [
@@ -355,18 +350,13 @@
 
                     ]
                 }  
-
-
-
-
-
             ]
         },
         {
             "nome": "sfn",
             "assuntos": [
                 {
-                    "nome": "entidades-forma",
+                    "nome": "forma",
                     "topicos": [
                         {
                             "nome": "Sociedade Anônima",
@@ -394,11 +384,54 @@
                                 },
                                 {
                                     "nome": "Sociedades de Arrendamento Mercantil (SAM ou leasing)."
-                                }
+                                },
+
+                                {
+                                    "nome": "Resseguradores."
+                                },
+                                {
+                                    "nome": "Sociedades Seguradoras."
+                                },
+                                {
+                                    "nome": "Sociedades de Capitalização."
+                                },
+                                {
+                                    "nome": "Entidades Abertas de Previdência Complementar."
+                                }                           
                             ]
                         },
                         {
-                            "nome": "Empresa Pública",
+                            "nome": "Sociedade Anônima ou Associação Civil(2)",
+                            "itens": [
+                                {
+                                    "nome": "Bolsa de Mercadorias e Futuros (BMF)"
+                                },
+                                {
+                                    "nome": "Bolsas de Valores (BV)"
+                                }
+                            ]
+                        },  
+                        {
+                            "nome": "Sociedade anônima de Capital Fechado(1)",
+                            "itens": [
+                                {
+                                    "nome": "Agências de Fomento (AF)."
+                                }
+                            ]
+                        },   
+                        {
+                            "nome": "S/A ou Sociedade por Quotas de Responsabilidade Limitada(2)",
+                            "itens": [
+                                {
+                                    "nome": "Sociedades Corretoras de Títulos e Valores Mobiliários (SCTVM)"
+                                },
+                                {
+                                    "nome": "Sociedades Distribuidoras de Títulos e Valores Mobiliários (SDTVM)"
+                                }
+                            ]
+                        },                                                                     
+                        {
+                            "nome": "Empresa Pública(2)",
                             "itens": [
                                 {
                                     "nome": "Caixa Econômica Federal (CEF)."
@@ -408,16 +441,9 @@
                                 }
                             ]
                         },
+                      
                         {
-                            "nome": "Sociedade anônima de Capital Fechado",
-                            "itens": [
-                                {
-                                    "nome": "Agências de Fomento (AF)."
-                                }
-                            ]
-                        },                        
-                        {
-                            "nome": "Sociedade de Pessoas",
+                            "nome": "Sociedade de Pessoas(1)",
                             "itens": [
                                 {
                                     "nome": "Cooperativas de Crédito (CC)."
@@ -425,7 +451,15 @@
                             ]
                         },                       
                         {
-                            "nome": "Sociedade Civil",
+                            "nome": "Fundação ou Sociedade Civil sem fins lucrativos(1)",
+                            "itens": [
+                                {
+                                    "nome": "Entidades Fechadas de Previdência Complementar (Fundos de Pensão)"
+                                }
+                            ]
+                        },                                              
+                        {
+                            "nome": "Sociedade Civil(1)",
                             "itens": [
                                 {
                                     "nome": "Associações de Poupança e Empréstimo (APE)."
@@ -433,7 +467,7 @@
                             ]
                         },
                         {
-                            "nome": "Cia. Fechada ou Sociedade por Quotas de Responsabilidade Limitada",
+                            "nome": "Cia. Fechada ou Sociedade por Quotas de Responsabilidade Limitada(1)",
                             "itens": [
                                 {
                                     "nome": "Sociedades de Crédito ao Microempreendedor (SCM)"
@@ -444,54 +478,286 @@
                     ]
                 },
 
+                {
+                    "nome": "deposito-a-vista",
+                    "topicos": [
+                        {
+                            "nome": "Recebe depósito a vista",
+                            "itens": [
+                                {
+                                    "nome": "Bancos Múltiplos com Carteira Comercial."
+                                },
+                                {
+                                    "nome": "Banco Comercial / Banco Cooperativo Comercial."
+                                },
+                                {
+                                    "nome": "Caixa Econômica Federal (CEF)."
+                                }, 
+                                {
+                                    "nome": "Cooperativas de Crédito (CC)."
+                                }                                
+                            ]
+                        },
+
+                        {
+                            "nome": "NÃO Recebe depósito a vista",
+                            "itens": [
+                                {
+                                    "nome": "Bancos de Investimento (BI)."
+                                },
+                                {
+                                    "nome": "Banco Nacional de Desenvolvimento Econômico e Social (BNDES)"
+                                },   
+                                {
+                                    "nome": "Agências de Fomento (AF)."
+                                },   
+                                {
+                                    "nome": "Associações de Poupança e Empréstimo (APE)."
+                                },   
+                                {
+                                    "nome": "Bancos de Câmbio (BCamb)."
+                                },   
+                                {
+                                    "nome": "Bancos de Desenvolvimento (BD)."
+                                },   
+                                {
+                                    "nome": "Companhias Hipotecárias (CH)."
+                                },                                   
+                                {
+                                    "nome": "Sociedades de Crédito, Financiamento e Investimento (SCFI ou Financeiras)."
+                                },   
+                                {
+                                    "nome": "Sociedades de Crédito Imobiliário (SCI)."
+                                },   
+                                {
+                                    "nome": "Sociedades de Crédito ao Microempreendedor (SCM)."
+                                },   
+                                {
+                                    "nome": "Administradoras de Consórcio."
+                                },   
+                                {
+                                    "nome": "Sociedades de Arrendamento Mercantil (SAM ou leasing)."
+                                },   
+                                {
+                                    "nome": "Bolsa de Mercadorias e Futuros (BMF)."
+                                },   
+                                {
+                                    "nome": "Bolsas de Valores (BV)."
+                                },                                  
+                                {
+                                    "nome": "Sociedades Corretoras de Títulos e Valores Mobiliários (SCTVM)."
+                                },   
+                                {
+                                    "nome": "Sociedades Distribuidoras de Títulos e Valores Mobiliários (SDTVM)."
+                                },                                  
+                                {
+                                    "nome": "Resseguradores."
+                                },   
+                                {
+                                    "nome": "Sociedades Seguradoras."
+                                },  
+                                {
+                                    "nome": "Sociedades de Capitalização."
+                                },   
+                                {
+                                    "nome": "Entidades Abertas de Previdência Complementar (PGBL e VGBL que se compra nos bancos)."
+                                },  
+                                {
+                                    "nome": "Entidades Fechadas de Previdência Complementar (Fundos de Pensão)."
+                                }
+
+
+                            ]
+
+                        }                                                  
+                    ]
+                },
+                {
+                    "nome": "tipo-instituicao",
+                    "topicos": [
+                        {
+                            "nome": "Instituição Financeira",
+                            "itens": [
+                                {
+                                    "nome": "Bancos Múltiplos com Carteira Comercial."
+                                },
+                                {
+                                    "nome": "Banco Comercial / Banco Cooperativo Comercial."
+                                },
+                                {
+                                    "nome": "Bancos de Investimento (BI)."
+                                },
+                                {
+                                    "nome": "Caixa Econômica Federal (CEF)."
+                                },
+                                {
+                                    "nome": "Banco Nacional de Desenvolvimento Econômico e Social (BNDES)"
+                                },  
+                                {
+                                    "nome": "Bancos de Desenvolvimento (BD)."
+                                },   
+                                {
+                                    "nome": "Agências de Fomento (AF)."
+                                },  
+                                {
+                                    "nome": "Cooperativas de Crédito (CC)."
+                                },
+                                {
+                                    "nome": "Associações de Poupança e Empréstimo (APE)."
+                                },   
+                                {
+                                    "nome": "Bancos de Câmbio (BCamb)."
+                                },   
+                                {
+                                    "nome": "Companhias Hipotecárias (CH)."
+                                },   
+                                {
+                                    "nome": "Sociedades de Crédito, Financiamento e Investimento (SCFI ou Financeiras)."
+                                },   
+ 
+                                {
+                                    "nome": "Sociedades de Crédito Imobiliário (SCI)."
+                                },   
+                                {
+                                    "nome": "Sociedades de Crédito ao Microempreendedor (SCM)."
+                                }, 
+                                {
+                                    "nome": "Sociedades Seguradoras."
+                                },
+                                {
+                                    "nome": "Entidades Fechadas de Previdência Complementar (Fundos de Pensão)."
+                                }                                                                
+
+                            ]
+                        },
+
+                        {
+                            "nome": "Instituição NÃO Financeira",
+                            "itens": [
+  
+                                {
+                                    "nome": "Administradoras de Consórcio."
+                                },   
+                                {
+                                    "nome": "Sociedades de Arrendamento Mercantil (SAM ou leasing)."
+                                },                               
+                                {
+                                    "nome": "Sociedades Corretoras de Títulos e Valores Mobiliários (SCTVM)."
+                                },   
+                                {
+                                    "nome": "Sociedades Distribuidoras de Títulos e Valores Mobiliários (SDTVM)."
+                                },                                  
+
+                                {
+                                    "nome": "Sociedades de Capitalização."
+                                },   
+                                {
+                                    "nome": "Entidades Abertas de Previdência Complementar (PGBL e VGBL que se compra nos bancos)."
+                                }
+
+
+                            ]
+
+                        }                                                  
+                    ]
+                },
 
 
                 {
-                    "nome": "operadores-forma",
+                    "nome": "denominacao",
                     "topicos": [
                         {
-                            "nome": "Sociedade Anônima ou Associação Civil",
+                            "nome": "Na denominação social, precisa conter a expressão XXX?",
                             "itens": [
                                 {
-                                    "nome": "Bolsa de Mercadorias e Futuros (BMF)"
+                                    "nome": "Bancos Múltiplos com Carteira Comercial."
                                 },
                                 {
-                                    "nome": "Bolsas de Valores (BV)"
-                                }
-                            ]
-                        },
-                        {
-                            "nome": "S/A ou Sociedade por Quotas de Responsabilidade Limitada",
-                            "itens": [
-                                {
-                                    "nome": "Sociedades Corretoras de Títulos e Valores Mobiliários (SCTVM)"
+                                    "nome": "Banco Comercial / Banco Cooperativo Comercial."
                                 },
                                 {
-                                    "nome": "Sociedades Distribuidoras de Títulos e Valores Mobiliários (SDTVM)"
-                                }
+                                    "nome": "Bancos de Investimento (BI)."
+                                },
+                                {
+                                    "nome": "Agências de Fomento (AF)."
+                                },                                   
+                                {
+                                    "nome": "Bancos de Desenvolvimento (BD)."
+                                },  
+                                {
+                                    "nome": "Bancos de Câmbio (BCamb)."
+                                },  
+                                {
+                                    "nome": "Sociedades de Crédito, Financiamento e Investimento (SCFI ou Financeiras)."
+                                },   
+                                {
+                                    "nome": "Sociedades de Crédito Imobiliário (SCI)."
+                                },   
+                                {
+                                    "nome": "Sociedades de Crédito ao Microempreendedor (SCM)."
+                                },                                  
+                                {
+                                    "nome": "Sociedades de Arrendamento Mercantil (SAM ou leasing)."
+                                },   
+                                {
+                                    "nome": "Sociedades Distribuidoras de Títulos e Valores Mobiliários (SDTVM)."
+                                }                                 
                             ]
                         },
+
                         {
-                            "nome": "Sociedade anônima",
+                            "nome": "Na denominação social, NÃO precisa conter a expressão XXX?",
                             "itens": [
                                 {
-                                    "nome": "Resseguradores",
-                                    "nome": "Sociedades Seguradoras",
-                                    "nome": "Sociedades de Capitalização",
-                                    "nome": "Entidades Abertas de Previdência Complementar"
-                                }
-                            ]
-                        },                        
-                        {
-                            "nome": "Fundação ou Sociedade Civil sem fins lucrativos",
-                            "itens": [
+                                    "nome": "Caixa Econômica Federal (CEF)."
+                                },                                 
                                 {
-                                    "nome": "Entidades Fechadas de Previdência Complementar (Fundos de Pensão)"
+                                    "nome": "Banco Nacional de Desenvolvimento Econômico e Social (BNDES)"
+                                },   
+                                {
+                                    "nome": "Cooperativas de Crédito (CC)."
+                                },   
+                                {
+                                    "nome": "Associações de Poupança e Empréstimo (APE)."
+                                },   
+                                {
+                                    "nome": "Companhias Hipotecárias (CH)."
+                                },                                   
+                                {
+                                    "nome": "Administradoras de Consórcio."
+                                },   
+                                {
+                                    "nome": "Bolsa de Mercadorias e Futuros (BMF)."
+                                },   
+                                {
+                                    "nome": "Bolsas de Valores (BV)."
+                                },                                  
+                                {
+                                    "nome": "Sociedades Corretoras de Títulos e Valores Mobiliários (SCTVM)."
+                                },   
+                              
+                                {
+                                    "nome": "Resseguradores."
+                                },   
+                                {
+                                    "nome": "Sociedades Seguradoras."
+                                },  
+                                {
+                                    "nome": "Sociedades de Capitalização."
+                                },   
+                                {
+                                    "nome": "Entidades Abertas de Previdência Complementar (PGBL e VGBL que se compra nos bancos)."
+                                },  
+                                {
+                                    "nome": "Entidades Fechadas de Previdência Complementar (Fundos de Pensão)."
                                 }
+
                             ]
-                        }                                              
+
+                        }                                                  
                     ]
-                }      
+                },                
+
 
 
             ]

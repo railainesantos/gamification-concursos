@@ -1171,28 +1171,8 @@
                 },
 
                 {
-                    "nome": "BID",
+                    "nome": "BIS",
                     "topicos": [
-                        {
-                            "nome": "Assembleia de Governadores",
-                            "itens": [
-                                {
-                                    "nome": "Autoridade máxima do BID."
-                                },                         
-                                {
-                                    "nome": "Composta por todos os países-membros."
-                                },                         
-                                {
-                                    "nome": "Representados por ministros das Finanças ou Economia, ou presidentes dos bancos centrais. ."
-                                },                         
-                                {
-                                    "nome": "Reúne-se uma vez por ano."
-                                },                         
-                                {
-                                    "nome": "Delega poderes à Diretoria Executiva."
-                                }                         
-                            ]
-                        },
                         {
                             "nome": "Diretoria Executiva",
                             "itens": [
@@ -1204,10 +1184,7 @@
                                 },  
                                 {
                                     "nome": "Composta pelos presidentes dos bancos centrais da Bélgica, da França, da Alemanha, da Itália, do Reino Unido e dos Estados Unidos, e, no máximo, nove presidentes dos demais bancos centrais membros."
-                                },                                                                                        
-                                {
-                                    "nome": "Responsável pelas atividades operacionais da instituição"
-                                }                         
+                                }                      
                             ]
                         },
                         {

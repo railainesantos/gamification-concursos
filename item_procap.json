@@ -1141,34 +1141,37 @@
                 },
 
                 {
-                    "nome": "Banco Mundial",
+                    "nome": "Banco-Mundial",
                     "topicos": [
+                        {
+                            "nome": "Diretoria Executiva",
+                            "itens": [
+                                {
+                                    "nome": "24 membros."
+                                },  
+                                {
+                                    "nome": "Cinco dos membros escolhidos pelos maiores acionistas, e os demais eleitos pelos outros países-membros."
+                                }                    
+                            ]
+                        },
                         {
                             "nome": "Junta de Governadores",
                             "itens": [
                                 {
                                     "nome": "Administração do Banco Mundial fica a cargo dessa estrutura."
-                                }                         
+                                }                                   
                             ]
-                        },
-                        {
-                            "nome": "Diretoria Executiva",
-                            "itens": [
-                                {
-                                    "nome": "24 membros, cinco deles escolhidos pelos maiores acionistas, e os demais eleitos pelos outros países-membros."
-                                }                         
-                            ]
-                        },
+                        },                                              
                         {
                             "nome": "Presidente",
                             "itens": [
                                 {
                                     "nome": "Tradicionalmente, um cidadão americano."
-                                }                          
+                                }                                   
                             ]
                         }                                                                                                                                                               
                     ]
-                },
+                },   
 
                 {
                     "nome": "BIS",
@@ -1177,7 +1180,7 @@
                             "nome": "Diretoria Executiva",
                             "itens": [
                                 {
-                                    "nome": "Composta pelo presidente do BID (mandato de cinco anos); 14 diretores executivos (mandatos de três anos); e gerentes."
+                                    "nome": "Composta pelo presidente (mandato de cinco anos); 14 diretores executivos (mandatos de três anos); e gerentes."
                                 },  
                                 {
                                     "nome": "Reúne-se, pelo menos, seis vezes por ano."

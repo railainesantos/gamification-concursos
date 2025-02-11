@@ -1337,6 +1337,44 @@
                 },
 
                 {
+                    "nome": "FED",
+                    "topicos": [
+                        {
+                            "nome": "Federal Reserve Act",
+                            "itens": [
+                                {
+                                    "nome": "Criou, em 1913, o FED."
+                                }                      
+                            ]
+                        },
+                        {
+                            "nome": "Banking Act",
+                            "itens": [
+                                {
+                                    "nome": "Aumentou a autonomia do FED e criou o FOMC, em 1935."
+                                }                       
+                            ]
+                        },                                                           
+                        {
+                            "nome": "Treasuty Fed Accord",
+                            "itens": [
+                                {
+                                    "nome": "Reestabeleceu a autonomia do FED após a Segunda Guerra Mundial (1951)."
+                                }                       
+                            ]
+                        },                                                                                                
+                        {
+                            "nome": "Depository Institutions Deregulation and Monetary Control Act (DIDMCA)",
+                            "itens": [
+                                {
+                                    "nome": "Eliminou, em 1980, qualquer diferença entre os bancos associados ao Fed e os não associados."
+                                }                       
+                            ]
+                        }                                                                                                                                                                                                                                                   
+                    ]
+                },                
+
+                {
                     "nome": "Mercosul",
                     "topicos": [
                         {
@@ -1548,8 +1586,12 @@
                             ]
 
                         }                                                                                 
+
+
                     ]
                 }             
+
+
 
             ]
         }   
@@ -1557,4 +1599,6 @@
 
     ]
 }
+
+
 

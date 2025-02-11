@@ -1139,7 +1139,103 @@
                         }                                                                                                                                                               
                     ]
                 },
-
+                {
+                    "nome": "FMI-Linhas-Financiamento",
+                    "topicos": [
+                        {
+                            "nome": "Stand-by Arrangements",
+                            "itens": [
+                                {
+                                    "nome": "Concedido para problemas de curto prazo do balanço de pagamentos."
+                                },
+                                {
+                                    "nome": " É o tipo de financiamento mais utilizado."
+                                }                          
+                            ]
+                        },
+                        {
+                            "nome": "Flexible Credit Line",
+                            "itens": [
+                                {
+                                    "nome": "É uma linha que visa atender aos países com um passado de políticas macroeconômicas sólidas, com menos condicionalidades e mais rapidez."
+                                },
+                                {
+                                    "nome": "Em março de 2009, a Diretoria Executiva do Fundo a criou para substituir a Short-Term Liquidity Facility adicionando a vantagem de um maior prazo de pagamento (3¼ a 5 anos), possibilidade de uso precaucionário e flexibilidade para atender aqualquer necessidade de balanço de pagamentos."
+                                }                          
+                            ]
+                        },
+                        {
+                            "nome": "Extended Fund Facility",
+                            "itens": [
+                                {
+                                    "nome": "Concedido a partir de 1974, para ajudar países com problemas mais sérios no balanço de pagamentos, decorrentes de problemas econômicos estruturais."
+                                },
+                                {
+                                    "nome": "As taxas de juros são concessionais e as linhas têm como um dos objetivos direcionar os países a um crescimento contínuo com redução de pobreza"
+                                },
+                                {
+                                    "nome": "É dividido em três modalidades: Extended Credit Facility, Standby Credit Facility e Rapid Credit Facility."
+                                },
+                                {
+                                    "nome": "Tem duração de até três anos e o pagamento deve ocorrer em até 10 anos."
+                                }
+                                                       
+                            ]
+                        },
+                        {
+                            "nome": "Extended Credit Facility",
+                            "itens": [
+                                {
+                                    "nome": "Criada em 2009, em substituição a Poverty Reduction and Growth Facility (PRGF)."
+                                },
+                                {
+                                    "nome": "Os recursos são tornados disponíveis por três anos, podendo ser prorrogado por mais dois."
+                                },
+                                {
+                                    "nome": "O montante pode atingir até 300% da quota, com prazo de repagamento entre 5½ e 10 anos."
+                                },
+                                {
+                                    "nome": "A taxa de juros é de 0,25% a.a, mas foi reduzida para zero até 2011"
+                                }
+                                                       
+                            ]
+                        } ,
+                        {
+                            "nome": "Standby Credit Facility",
+                            "itens": [
+                                {
+                                    "nome": "Criada em 2009, em substituição a High-Access Component of the Exogenous Shocks Facility. "
+                                },
+                                {
+                                    "nome": "É uma linha que pode ser utilizada de forma precaucional. "
+                                },
+                                {
+                                    "nome": "Os recursos tornam-se disponíveis entre 12 e 24 meses e o montante pode atingir até 300% da quota, com prazo de repagamento entre 4 e 8 anos"
+                                },
+                                {
+                                    "nome": "A taxa de juros é de 0,25% a.a, mas foi reduzida para zero até 2011 (2)"
+                                }                                       
+                            ]
+                        } ,
+                        {
+                            "nome": "Rapid Credit Facility",
+                            "itens": [
+                                {
+                                    "nome": "Criada em 2009, para oferecer suporte emergencial com poucas condicionalidades e grande flexibilidade para tornar os recursos disponíveis "
+                                },
+                                {
+                                    "nome": "É uma linha que pode ser utilizada de forma precaucional. "
+                                },
+                                {
+                                    "nome": "O montante pode atingir até 75% da quota, com prazo de repagamento entre 5½ e 10 anos. A taxa de juros está reduzida para 0% até 2011"
+                                },
+                                {
+                                    "nome": "É, também, utilizada para fornecer rápida assistência financeira para países-membros afligidos por desastres naturais ou conflitos."
+                                }                                       
+                            ]
+                        }                                                                                                                                                                          
+                    ]
+                },
                 {
                     "nome": "Banco-Mundial",
                     "topicos": [
@@ -1452,12 +1548,8 @@
                             ]
 
                         }                                                                                 
-
-
                     ]
                 }             
-
-
 
             ]
         }   
@@ -1465,6 +1557,4 @@
 
     ]
 }
-
-
 

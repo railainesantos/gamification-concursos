@@ -349,9 +349,121 @@
                         }
 
                     ]
+                },  
+
+
+                {
+                    "nome": "agenda-acoes",
+                    "topicos": [
+                        {
+                            "nome": "Inclusão",
+                            "itens": [
+                                {
+                                    "nome": "Cooperativismo"
+                                },
+                                {
+                                    "nome": "Microcrédito"
+                                },
+                                {
+                                    "nome": "Conversibilidade"
+                                },
+                                {
+                                    "nome": "IMK"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Competitividade",
+                            "itens": [
+                                {
+                                    "nome": "Inovações"
+                                },
+                                {
+                                    "nome": "Eficiência de mercado"
+                                },
+                                {
+                                    "nome": "Reservas internacionais"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Transparência",
+                            "itens": [
+                                {
+                                    "nome": "Cidadania digital"
+                                },
+                                {
+                                    "nome": "Comunicação das ações do BC"
+                                },
+                                {
+                                    "nome": "Crédito rural"
+                                },
+                                {
+                                    "nome": "Crédito imobiliário"
+                                },
+                                {
+                                    "nome": "Relacionamento com o Congresso Nacional"
+                                },
+                                {
+                                    "nome": "Transparência na comunicação da política monetária"
+                                },
+                                {
+                                    "nome": "Relacionamento com investidores internacionais"
+                                }                                                                                                                                
+                            ]
+                        },
+                        {
+                            "nome": "Educação",
+                            "itens": [
+                                {
+                                    "nome": "Educação financeira"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Sustentabilidade",
+                            "itens": [
+                                {
+                                    "nome": "Responsabilidade socioambiental do BC"
+                                },
+                                {
+                                    "nome": "Parcerias"
+                                },
+                                {
+                                    "nome": "Políticas"
+                                },
+                                {
+                                    "nome": "Supervisão"
+                                },
+                                {
+                                    "nome": "Regulação"
+                                }                                                                                                                            
+                            ]
+                        }, 
+                        {
+                            "nome": "Excelência",
+                            "itens": [
+                                {
+                                    "nome": "Valor ao Servidor"
+                                },
+                                {
+                                    "nome": "Fortalecimento Institucional"
+                                }                                                                                                                         
+                            ]
+                        }                                                                                                
+
+                    ]
                 }  
+
+
+
+
             ]
         },
+
+
+
+
         {
             "nome": "sfn",
             "assuntos": [
@@ -632,7 +744,7 @@
                         },
 
                         {
-                            "nome": "Instituição NÃO Financeira",
+                            "nome": "Instituição NÃO Financeira(6)",
                             "itens": [
   
                                 {
@@ -665,7 +777,7 @@
                     "nome": "denominacao",
                     "topicos": [
                         {
-                            "nome": "Na denominação social, precisa conter a expressão XXX?",
+                            "nome": "Na denominação social, precisa conter a expressão XXX?(11)",
                             "itens": [
                                 {
                                     "nome": "Bancos Múltiplos com Carteira Comercial."
@@ -765,7 +877,7 @@
                                     "nome": "Expansão da rede bancária e criação de bancos regionais."
                                 },
                                 {
-                                    "nome": "Criação da Sumoc (XXX) como precursor do Banco Central."
+                                    "nome": "Criação da Sumoc (XXXX) como precursor do Banco Central."
                                 },
                                 {
                                     "nome": "Banco do Brasil atuava como banco central de fato."
@@ -816,7 +928,7 @@
                                     "nome": "Plano Real (XXXX): Redução da inflação revelou ineficiências do setor financeiro."
                                 },
                                 {
-                                    "nome": "Crise bancária levou à criação do Proer (XXXX) e do Proes (XXXX) para reestruturação do SFN."
+                                    "nome": "Crise bancária levou à criação do Proer (1995) e do Proes (1996) para reestruturação do SFN."
                                 },
                                 {
                                     "nome": "Fundo Garantidor de Crédito (FGC): Criado para proteger depositantes."
@@ -911,7 +1023,332 @@
                         }                                                                                                                        
                                             
                     ]
-                }                
+                },
+
+                {
+                    "nome": "bce",
+                    "topicos": [
+                        {
+                            "nome": "Comitê Executivo",
+                            "itens": [
+                                {
+                                    "nome": "Formado por um presidente, um vice-presidente e por quatro outros conselheiros."
+                                },
+                                {
+                                    "nome": "Mandato de oito anos não renováveis"
+                                },
+                                {
+                                    "nome": "Todos os membros são indicados em comum acordo entre os chefes de Estado dos países da zona do euro."
+                                },
+                                {
+                                    "nome": "Responsável por implementar a política monetária definida pelo Conselho de Governo e pela gestão do BCE, transmitindo as instruções aos BCNs."
+                                } 
+                            ]
+                        },
+                        {
+                            "nome": "Conselho de Governo",
+                            "itens": [
+                                {
+                                    "nome": "Formado pelos seis membros do Comitê Executivo e pelos presidentes dos bancos centrais dos países da área do euro."
+                                },
+                                {
+                                    "nome": "Compete-lhe formular a política monetária e fixar a meta de inflação na zona do euro."
+                                },
+                                {
+                                    "nome": "Reúne-se duas vezes por mês: na primeira, procede à uma avaliação da conjuntura econômica e monetária, e na segunda, discute questões relacionadas a outras tarefas e responsabilidades dos BCNs e do Sistema Europeu de Bancos Centrais."
+                                }                           
+                            ]
+                        },
+                        {
+                            "nome": "Conselho Geral",
+                            "itens": [
+                                {
+                                    "nome": "Formado pelo presidente e pelo vice-presidente do BCE (Comitê Executivo), e pelos presidentes dos BCNs que integram a União Europeia, inclusive aqueles que não adotaram o euro como moeda."
+                                },
+                                {
+                                    "nome": "Os demais membros do Comitê Executivo – o presidente do Conselho da União Europeia e um membro da Comissão Europeia – podem participar das reuniões, mas sem direito a voto."
+                                },
+                                {
+                                    "nome": "Atua na interligação e na coordenação das ações entre a área que adotou o euro e a que ainda não o adotou, presta consultoria ao BCE e prepara a fixação ao euro das taxas cambiais das moedas de países que ainda não o adotaram."
+                                },
+                                {
+                                    "nome": "Responsável pela coleta de dados e elaboração de relatórios para o BCE."
+                                }                                                             
+                            ]
+                        }                                                                                                                        
+                                            
+                    ]
+                },
+
+                {
+                    "nome": "FMI",
+                    "topicos": [
+                        {
+                            "nome": "Assembleia de Governadores",
+                            "itens": [
+                                {
+                                    "nome": "Poder máximo do Fundo."
+                                },
+                                {
+                                    "nome": "Reúne-se, normalmente, uma vez por ano."
+                                },
+                                {
+                                    "nome": "É constituída por autoridades de cada país-membro, geralmente ministros da Fazenda ou equivalente."
+                                },
+                                {
+                                    "nome": "Possui um Comitê de assessoramento, o International Monetary and Financial Committee (IMFC)."
+                                }                           
+                            ]
+                        },
+                        {
+                            "nome": "Conselho Executivo",
+                            "itens": [
+                                {
+                                    "nome": "Constituído por 24 membros, representando países ou grupo de países agrupados (de 5 a 20) na forma de constituencies."
+                                },
+                                {
+                                    "nome": "5 membros nomeados diretamente pelos seguintes países: Estados Unidos (único país cujo poder de voto é grande o suficiente para permitir, individualmente, o veto para matérias mais importantes), Japão, Alemanha, França e Reino Unido."
+                                },
+                                {
+                                    "nome": "19 membros indicados por cada constituency, que devem ser aprovados pela Assembleia-Geral para mandatos de dois anos, renováveis."
+                                },
+                                {
+                                    "nome": "Responsável pela administração do Fundo, incluindo política operacional, empréstimos e atividades de supervisão. Reúne-se, pelo menos, três vezes por semana."
+                                }                           
+                            ]
+                        },
+                        {
+                            "nome": "Diretor-Gerente",
+                            "itens": [
+                                {
+                                    "nome": "Chairman e chief executive officer do Fundo."
+                                },
+                                {
+                                    "nome": "Escolhido pelo Conselho Executivo."
+                                },
+                                {
+                                    "nome": "Tendo um mandato de cinco anos."
+                                },
+                                {
+                                    "nome": "Pode ser reconduzido"
+                                },
+                                {
+                                    "nome": "Sob o seu comando está o corpo técnico (staff) da instituição, que colabora com os países-membros na elaboração dos programas de ajustamento e assistência técnica, que envolve a elaboração de políticas fiscais e monetárias, desenvolvimento institucional, treinamento de funcionários."
+                                }                           
+                            ]
+                        }                                                                                                                                                               
+                    ]
+                },
+
+                {
+                    "nome": "Banco Mundial",
+                    "topicos": [
+                        {
+                            "nome": "Junta de Governadores",
+                            "itens": [
+                                {
+                                    "nome": "Administração do Banco Mundial fica a cargo dessa estrutura."
+                                }                         
+                            ]
+                        },
+                        {
+                            "nome": "Diretoria Executiva",
+                            "itens": [
+                                {
+                                    "nome": "24 membros, cinco deles escolhidos pelos maiores acionistas, e os demais eleitos pelos outros países-membros."
+                                }                         
+                            ]
+                        },
+                        {
+                            "nome": "Presidente",
+                            "itens": [
+                                {
+                                    "nome": "Tradicionalmente, um cidadão americano."
+                                }                          
+                            ]
+                        }                                                                                                                                                               
+                    ]
+                },
+
+                {
+                    "nome": "BID",
+                    "topicos": [
+                        {
+                            "nome": "Assembleia de Governadores",
+                            "itens": [
+                                {
+                                    "nome": "Autoridade máxima do BID."
+                                },                         
+                                {
+                                    "nome": "Composta por todos os países-membros."
+                                },                         
+                                {
+                                    "nome": "Representados por ministros das Finanças ou Economia, ou presidentes dos bancos centrais. ."
+                                },                         
+                                {
+                                    "nome": "Reúne-se uma vez por ano."
+                                },                         
+                                {
+                                    "nome": "Delega poderes à Diretoria Executiva."
+                                }                         
+                            ]
+                        },
+                        {
+                            "nome": "Diretoria Executiva",
+                            "itens": [
+                                {
+                                    "nome": "Composta pelo presidente do BID (mandato de cinco anos); 14 diretores executivos (mandatos de três anos); e gerentes."
+                                },  
+                                {
+                                    "nome": "Reúne-se, pelo menos, seis vezes por ano."
+                                },  
+                                {
+                                    "nome": "Composta pelos presidentes dos bancos centrais da Bélgica, da França, da Alemanha, da Itália, do Reino Unido e dos Estados Unidos, e, no máximo, nove presidentes dos demais bancos centrais membros."
+                                },                                                                                        
+                                {
+                                    "nome": "Responsável pelas atividades operacionais da instituição"
+                                }                         
+                            ]
+                        },
+                        {
+                            "nome": "Assembleia-Geral",
+                            "itens": [
+                                {
+                                    "nome": "Composta pelos presidentes dos bancos centrais."
+                                },                         
+                                {
+                                    "nome": "Membros se reúnem a cada dois meses para decidir e votar sobre questões regulatórias e de governança, incluindo plano de ação, orçamento e estratégia da instituição."
+                                }                         
+                            ]
+                        },                                              
+                        {
+                            "nome": "Administração",
+                            "itens": [
+                                {
+                                    "nome": "Exercida pelo Gerente-geral."
+                                }                          
+                            ]
+                        }                                                                                                                                                               
+                    ]
+                },
+
+                {
+                    "nome": "CEMLA",
+                    "topicos": [
+                        {
+                            "nome": "Assembleia de Governadores",
+                            "itens": [
+                                {
+                                    "nome": "Órgão máximo."
+                                },                                           
+                                {
+                                    "nome": "Reune-se anualmente, ou sempre que necessário."
+                                }                         
+                            ]
+                        },
+                        {
+                            "nome": "Junta de Governo",
+                            "itens": [
+                                {
+                                    "nome": "Composta por presidentes de bancos centrais de membros associados, sendo o do México um participante permanente, na condição de país-sede."
+                                },                         
+                                {
+                                    "nome": "Representantes são eleitos pela Assembleia para um mandato de quatro anos."
+                                }                         
+                            ]
+                        }                                                                                                                                                             
+                    ]
+                },
+
+                {
+                    "nome": "Mercosul",
+                    "topicos": [
+                        {
+                            "nome": "Conselho do Mercado Comum ",
+                            "itens": [
+                                {
+                                    "nome": "Órgão superior."
+                                },                         
+                                {
+                                    "nome": "Responsável pela condução política do Mercosul."
+                                },                         
+                                {
+                                    "nome": "Responsável pelo cumprimento dos objetivos do Tratado de Assunção."
+                                },                         
+                                {
+                                    "nome": "Manifesta-se por meio de decisões."
+                                },   
+                                {
+                                    "nome": "Reúne uma vez a cada seis meses, ou quando necessário."
+                                }                       
+                            ]
+                        },
+                        {
+                            "nome": "Grupo Mercado Comum",
+                            "itens": [
+                                {
+                                    "nome": "Órgão executivo."
+                                },  
+                                {
+                                    "nome": "Toma as providências para o cumprimento das decisões do Conselho."
+                                },  
+                                {
+                                    "nome": "Trabalha pelo avanço do Mercado Comum."
+                                },                                                                                        
+                                {
+                                    "nome": "Manifesta-se por meio de resoluções"
+                                }                         
+                            ]
+                        },
+                        {
+                            "nome": "Comissão de Comércio",
+                            "itens": [
+                                {
+                                    "nome": "Órgão assistente do GMC."
+                                },
+                                {
+                                    "nome": "Trabalha pela aplicação da política comercial comum aos EstadosPartes."
+                                },                                                           
+                                {
+                                    "nome": "Manifesta-se por diretivas."
+                                }                         
+                            ]
+                        }, 
+                        {
+                            "nome": "Parlamento do Mercosul",
+                            "itens": [
+                                {
+                                    "nome": "Implementação dos procedimentos internos dos Estados-Partes."
+                                },                                                         
+                                {
+                                    "nome": "Harmonização de legislações nacionais."
+                                }                         
+                            ]
+                        }, 
+                        {
+                            "nome": "Foro Consultivo Econômico-Social",
+                            "itens": [
+                                {
+                                    "nome": "Órgão representativo dos setores econômicos e sociais."
+                                },                                                         
+                                {
+                                    "nome": "Manifesta-se por meio de recomendações ao GMC."
+                                }                         
+                            ]
+                        },                                                                                                
+                        {
+                            "nome": "Secretaria Administrativa",
+                            "itens": [
+                                {
+                                    "nome": "Sede em Montevidéu."
+                                }                          
+                            ]
+                        }                                                                                                                                                               
+                    ]
+                }                                                 
+
+
+
 
             ]
         },

@@ -16,7 +16,7 @@ li {	list-style-type:none;
 		padding:5px; 
 		font-size:11px;
 		cursor:move; 
-		background:#d3d3d3; 
+		background:#e7e7e7; 
 		text-shadow:1px 1px 1px #FFF;
 }
 li:hover { background:#FFF; 

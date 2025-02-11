@@ -1269,15 +1269,48 @@
                     ]
                 },   
 
+
+                {
+                    "nome": "BID",
+                    "topicos": [
+                        {
+                            "nome": "Assembleia de Governadores",
+                            "itens": [
+                                {
+                                    "nome": "Autoridade máxima do BID."
+                                }, 
+                                {
+                                    "nome": "Composta por todos os países-membros."
+                                },  
+                                {
+                                    "nome": "Representados por ministros das Finanças ou Economia, ou presidentes dos bancos centrais. ."
+                                },                                                                   
+                                {
+                                    "nome": "Reúne-se uma vez por ano."
+                                },
+                                {
+                                    "nome": "Delega poderes à Diretoria Executiva."
+                                }                                                        
+                            ]
+                        },
+                        {
+                            "nome": "Diretoria Executiva",
+                            "itens": [
+                                {
+                                    "nome": "Composta pelo presidente do BID (mandato de cinco anos); 14 diretores executivos (mandatos de três anos); e gerentes."
+                                }                                   
+                            ]
+                        }                                                                                                                                                             
+                    ]
+                },   
+
+
                 {
                     "nome": "BIS",
                     "topicos": [
                         {
                             "nome": "Diretoria Executiva",
                             "itens": [
-                                {
-                                    "nome": "Composta pelo presidente (mandato de cinco anos); 14 diretores executivos (mandatos de três anos); e gerentes."
-                                },  
                                 {
                                     "nome": "Reúne-se, pelo menos, seis vezes por ano."
                                 },  

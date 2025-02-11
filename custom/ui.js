@@ -965,7 +965,7 @@ if (window.Node && Node.prototype && !Node.prototype.contains) {
 				if($(self.element).attr('id')==$(self.element).parent().attr('id'))
 				{
 					$(self.element).find('.correct').remove();
-					$(self.element).css('background','#E7E7E7');
+					// $(self.element).css('background','#E7E7E7');
 				}
 				
 				//Check sequance

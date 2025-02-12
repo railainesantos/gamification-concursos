@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "json_to_excel": "node json_to_excel.js",
+    "excel_to_json": "node excel_to_json.js"
+  }
+}

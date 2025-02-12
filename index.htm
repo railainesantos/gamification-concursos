@@ -116,6 +116,25 @@
         });
     };
 
+    function generateBreadcrumb() {
+        // Obtém os parâmetros da URL
+        const param_disciplina = $.urlParam('disciplina');
+        const param_assunto = $.urlParam('assunto');
+
+        let breadcrumb = "<a href='?'>GAMIFICATION </a> > ";
+        
+        if (param_disciplina) {
+            breadcrumb += "<a href='?disciplina=" + encodeURIComponent(param_disciplina) + "'>" + param_disciplina.toUpperCase() + "</a> > ";
+            if (param_assunto) {
+                breadcrumb += "<a href='?disciplina=" + encodeURIComponent(param_disciplina) + "&assunto=" + encodeURIComponent(param_assunto) + "'>" + param_assunto.toUpperCase() + "</a>";
+            }
+        }
+
+        // Exibe o breadcrumb no elemento com id="breadcrumb"
+        $("#menu2").html(breadcrumb);
+    }   
+        
+
   </script>
 
 </body>

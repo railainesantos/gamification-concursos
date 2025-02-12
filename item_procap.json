@@ -453,11 +453,161 @@
                         }                                                                                                
 
                     ]
-                }  
-
-
-
-
+                },
+                {
+                    "nome": "cadeia-de-valor",
+                    "topicos": [
+                        {
+                            "nome": "Formulação das políticas monetária, de crédito, cambial e de administração das reservas internacionais",
+                            "itens": [
+                                {
+                                    "nome": "Estabelecer políticas monetária, de crédito, cambial e das reservas internacionais."
+                                },
+                                {
+                                    "nome": "Produzir estatísticas e informações econômico-financeiras."
+                                },
+                                {
+                                    "nome": "Macroproduto: Estabilidade do Poder de Compra da Moeda"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Execução e acompanhamento das políticas monetária, de crédito, cambial e das reservas internacionais",
+                            "itens": [
+                                {
+                                    "nome": "Executar e acompanhar as políticas monetária e de crédito."
+                                },
+                                {
+                                    "nome": "Administrar as reservas internacionais."
+                                },
+                                {
+                                    "nome": "Executar e acompanhar a política cambial."
+                                },
+                                {
+                                    "nome": "Macroproduto: Estabilidade do Poder de Compra da Moeda"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Formulação de diretrizes para estabilidade e eficiência e regulação do SFN",
+                            "itens": [
+                                {
+                                    "nome": "Formular diretrizes para estabilidade e eficiência do SFN."
+                                },
+                                {
+                                    "nome": "Regular o SFN."
+                                },
+                                {
+                                    "nome": "Macroproduto: SFN Sólido e Eficente."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Organização, fiscalização e resolução no âmbito do SFN",
+                            "itens": [
+                                {
+                                    "nome": "Organizar o SFN."
+                                },
+                                {
+                                    "nome": "Fiscalizar o SFN."
+                                },
+                                {
+                                    "nome": "Resolver instituições do SFN."
+                                },
+                                {
+                                    "nome": "Macroproduto: SFN Sólido e Eficente."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Provimento e vigilância da infraestrutura do SFN",
+                            "itens": [
+                                {
+                                    "nome": "Regular a infraestrutura do SFN."
+                                },
+                                {
+                                    "nome": "Prover meio circulante."
+                                },
+                                {
+                                    "nome": "Prover sistemas de compensação e de liquidação."
+                                },
+                                {
+                                    "nome": "Efetuar vigliância do Sistema de Pagamentos Brasileiro."
+                                },
+                                {
+                                    "nome": "Macroproduto: Infraestrutura do Mercado Financeiro."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Relacionamento institucional no país e no exterior",
+                            "itens": [
+                                {
+                                    "nome": "Atender a demanda dos poderes públicos."
+                                },
+                                {
+                                    "nome": "Manter relacionamento com a sociedade."
+                                },
+                                {
+                                    "nome": "Conduzir relacionamento internacional."
+                                },
+                                {
+                                    "nome": "Macroproduto: Relacionamento Institucional."
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Gestão e suporte organizacionais",
+                            "itens": [
+                                {
+                                    "nome": "Promover governança e gestão."
+                                },
+                                {
+                                    "nome": "Gerir conhecimento, informação e documentação."
+                                },
+                                {
+                                    "nome": "Administrar partrimônio e serviços de apoio."
+                                },
+                                {
+                                    "nome": "Gerir pessoas."
+                                },
+                                {
+                                    "nome": "Prover segurança institucional."
+                                },
+                                {
+                                    "nome": "Gerenciar riscos corporativos e continuidade de negócio."
+                                },
+                                {
+                                    "nome": "Gerir comunicação."
+                                },
+                                {
+                                    "nome": "Realizar a gestão da ética e a correição disciplinar."
+                                },
+                                {
+                                    "nome": "Administrar orçamento, finanças e contabilidade."
+                                },
+                                {
+                                    "nome": "Exercer procuratório e prestar consultoria jurídica."
+                                },
+                                {
+                                    "nome": "Realizar auditoria interna."
+                                },
+                                {
+                                    "nome": "Elaborar estudos, pesquisas, relatórios e estatísticas."
+                                },
+                                {
+                                    "nome": "Gerenciar conformidade e controles internos da gestão."
+                                },
+                                {
+                                    "nome": "Prover e gerenciar tecnologias de informação e comunicação (TIC)"
+                                },
+                                {
+                                    "nome": "Macroproduto: Gestão e Suporte do BCB."
+                                }
+                            ]
+                        }
+                    ]
+                } 
             ]
         },
 
@@ -1626,6 +1776,3 @@
 
     ]
 }
-
-
-

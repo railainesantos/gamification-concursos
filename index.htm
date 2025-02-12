@@ -9,17 +9,6 @@
   <script type="text/javascript" src="custom/ui.js"></script>
   <script type="text/javascript" src="custom/custom.js"></script>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-222710519-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-222710519-1');
-  </script>
-
-
 </head>
 
 <body>
@@ -53,7 +42,10 @@
     //var url = "https://api.npoint.io/486f24b62433e3c19087.json"; em 25/09/2023
     //var url = "https://api.npoint.io/6b5a4678171f39875669.json";
  
-    var url = "https://api.npoint.io/aed2b7d20ce08f97cae8"; //var url = "https://www.npoint.io/docs/aed2b7d20ce08f97cae8";
+    //var url = "https://api.npoint.io/aed2b7d20ce08f97cae8"; //var url = "https://www.npoint.io/docs/aed2b7d20ce08f97cae8";
+
+    var url = "https://railainesantos.github.io/gamification-concursos/item_procap.json"; 
+    
     $(document).ready(function() {  
          $.getJSON(url, 
               function(data) { json = data; writeQuestions(); }

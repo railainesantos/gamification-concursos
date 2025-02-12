@@ -50,6 +50,7 @@
          $.getJSON(url, 
               function(data) { json = data; writeQuestions(); }
          ); 
+          generateBreadcrumb();
     }); 
      
     function writeQuestions() { 

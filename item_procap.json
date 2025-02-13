@@ -79,7 +79,6 @@
                         }
                     ]
                 },
-
                 {
                     "nome": "areas-diretoria-colegiada",
                     "topicos": [
@@ -171,29 +170,30 @@
                                 {
                                     "nome": "Avaliar a situação econômica do país e propor diretrizes de política econômica."
                                 },
-                                 {   "nome": "Coordenar apresentações macroeconômicas e sugestões de política monetária."
+                                {
+                                    "nome": "Coordenar apresentações macroeconômicas e sugestões de política monetária."
                                 }
                             ]
                         },
                         {
                             "nome": "Área do Diretor de Política Monetária (Dipom):",
                             "itens": [
-                                 {
+                                {
                                     "nome": "Operacionalizar políticas monetárias e cambiais."
                                 },
-                                 {
+                                {
                                     "nome": "Administrar reservas internacionais."
                                 },
-                                 {
+                                {
                                     "nome": "Gerenciar sistemas de transferência de fundos (STR e SPI/Pix)."
                                 },
-                                 {
+                                {
                                     "nome": "Administrar o Selic, onde estão depositados os títulos públicos federais."
                                 },
                                 {
                                     "nome": "Atuar como emprestador de última instância, fornecendo liquidez ao sistema financeiro."
                                 }
-                           ]
+                            ]
                         },
                         {
                             "nome": "Área do Diretor de Regulação (Dinor):",
@@ -226,13 +226,12 @@
                                 },
                                 {
                                     "nome": "Atender cidadãos e Poderes Constituídos (reclamações contra instituições financeiras e pedidos de informação)."
-                                },                                  
-                                {  "nome": "Supervisionar a Assessoria Parlamentar e a Ouvidoria Interna."
+                                },
+                                {
+                                    "nome": "Supervisionar a Assessoria Parlamentar e a Ouvidoria Interna."
                                 }
                             ]
                         }
-
-
                     ]
                 },
                 {
@@ -295,7 +294,6 @@
                                 }
                             ]
                         }
-
                     ]
                 },
                 {
@@ -318,7 +316,7 @@
                                 },
                                 {
                                     "nome": "Sustentabilidade"
-                                },                                
+                                },
                                 {
                                     "nome": "Excelência"
                                 }
@@ -347,11 +345,8 @@
                                 }
                             ]
                         }
-
                     ]
-                },  
-
-
+                },
                 {
                     "nome": "agenda-acoes",
                     "topicos": [
@@ -409,7 +404,7 @@
                                 },
                                 {
                                     "nome": "Relacionamento com investidores internacionais"
-                                }                                                                                                                                
+                                }
                             ]
                         },
                         {
@@ -437,9 +432,9 @@
                                 },
                                 {
                                     "nome": "Regulação"
-                                }                                                                                                                            
+                                }
                             ]
-                        }, 
+                        },
                         {
                             "nome": "Excelência",
                             "itens": [
@@ -448,10 +443,9 @@
                                 },
                                 {
                                     "nome": "Fortalecimento Institucional"
-                                }                                                                                                                         
+                                }
                             ]
-                        }                                                                                                
-
+                        }
                     ]
                 },
                 {
@@ -607,13 +601,9 @@
                             ]
                         }
                     ]
-                } 
+                }
             ]
         },
-
-
-
-
         {
             "nome": "sfn",
             "assuntos": [
@@ -647,7 +637,6 @@
                                 {
                                     "nome": "Sociedades de Arrendamento Mercantil (SAM ou leasing)."
                                 },
-
                                 {
                                     "nome": "Resseguradores."
                                 },
@@ -659,7 +648,7 @@
                                 },
                                 {
                                     "nome": "Entidades Abertas de Previdência Complementar."
-                                }                           
+                                }
                             ]
                         },
                         {
@@ -672,7 +661,7 @@
                                     "nome": "Bolsas de Valores (BV)"
                                 }
                             ]
-                        },  
+                        },
                         {
                             "nome": "Sociedade anônima de Capital Fechado(1)",
                             "itens": [
@@ -680,18 +669,21 @@
                                     "nome": "Agências de Fomento (AF)."
                                 }
                             ]
-                        },   
+                        },
                         {
-                            "nome": "S/A ou Sociedade por Quotas de Responsabilidade Limitada(2)",
+                            "nome": "S/A ou Sociedade por Quotas de Responsabilidade Limitada(3)",
                             "itens": [
                                 {
                                     "nome": "Sociedades Corretoras de Títulos e Valores Mobiliários (SCTVM)"
                                 },
                                 {
                                     "nome": "Sociedades Distribuidoras de Títulos e Valores Mobiliários (SDTVM)"
+                                },
+                                {
+                                    "nome": "Sociedades Corretoras de Câmbio (SCC)"
                                 }
                             ]
-                        },                                                                     
+                        },
                         {
                             "nome": "Empresa Pública(2)",
                             "itens": [
@@ -703,7 +695,6 @@
                                 }
                             ]
                         },
-                      
                         {
                             "nome": "Sociedade de Pessoas(1)",
                             "itens": [
@@ -711,7 +702,7 @@
                                     "nome": "Cooperativas de Crédito (CC)."
                                 }
                             ]
-                        },                       
+                        },
                         {
                             "nome": "Fundação ou Sociedade Civil sem fins lucrativos(1)",
                             "itens": [
@@ -719,7 +710,7 @@
                                     "nome": "Entidades Fechadas de Previdência Complementar (Fundos de Pensão)"
                                 }
                             ]
-                        },                                              
+                        },
                         {
                             "nome": "Sociedade Civil(1)",
                             "itens": [
@@ -735,11 +726,9 @@
                                     "nome": "Sociedades de Crédito ao Microempreendedor (SCM)"
                                 }
                             ]
-
-                        }                                                  
+                        }
                     ]
                 },
-
                 {
                     "nome": "deposito-a-vista",
                     "topicos": [
@@ -754,13 +743,12 @@
                                 },
                                 {
                                     "nome": "Caixa Econômica Federal (CEF)."
-                                }, 
+                                },
                                 {
                                     "nome": "Cooperativas de Crédito (CC)."
-                                }                                
+                                }
                             ]
                         },
-
                         {
                             "nome": "NÃO Recebe depósito a vista",
                             "itens": [
@@ -769,69 +757,69 @@
                                 },
                                 {
                                     "nome": "Banco Nacional de Desenvolvimento Econômico e Social (BNDES)"
-                                },   
+                                },
                                 {
                                     "nome": "Agências de Fomento (AF)."
-                                },   
+                                },
                                 {
                                     "nome": "Associações de Poupança e Empréstimo (APE)."
-                                },   
+                                },
                                 {
                                     "nome": "Bancos de Câmbio (BCamb)."
-                                },   
+                                },
+                                {
+                                    "nome": "Sociedades Corretoras de Câmbio (SCC)"
+                                },
                                 {
                                     "nome": "Bancos de Desenvolvimento (BD)."
-                                },   
+                                },
                                 {
                                     "nome": "Companhias Hipotecárias (CH)."
-                                },                                   
+                                },
                                 {
                                     "nome": "Sociedades de Crédito, Financiamento e Investimento (SCFI ou Financeiras)."
-                                },   
+                                },
                                 {
                                     "nome": "Sociedades de Crédito Imobiliário (SCI)."
-                                },   
+                                },
                                 {
                                     "nome": "Sociedades de Crédito ao Microempreendedor (SCM)."
-                                },   
+                                },
                                 {
                                     "nome": "Administradoras de Consórcio."
-                                },   
+                                },
                                 {
                                     "nome": "Sociedades de Arrendamento Mercantil (SAM ou leasing)."
-                                },   
+                                },
                                 {
                                     "nome": "Bolsa de Mercadorias e Futuros (BMF)."
-                                },   
+                                },
                                 {
                                     "nome": "Bolsas de Valores (BV)."
-                                },                                  
+                                },
                                 {
                                     "nome": "Sociedades Corretoras de Títulos e Valores Mobiliários (SCTVM)."
-                                },   
+                                },
                                 {
                                     "nome": "Sociedades Distribuidoras de Títulos e Valores Mobiliários (SDTVM)."
-                                },                                  
+                                },
                                 {
                                     "nome": "Resseguradores."
-                                },   
+                                },
                                 {
                                     "nome": "Sociedades Seguradoras."
-                                },  
+                                },
                                 {
                                     "nome": "Sociedades de Capitalização."
-                                },   
+                                },
                                 {
                                     "nome": "Entidades Abertas de Previdência Complementar (PGBL e VGBL que se compra nos bancos)."
-                                },  
+                                },
                                 {
                                     "nome": "Entidades Fechadas de Previdência Complementar (Fundos de Pensão)."
                                 }
-
-
                             ]
-
-                        }                                                  
+                        }
                     ]
                 },
                 {
@@ -854,73 +842,65 @@
                                 },
                                 {
                                     "nome": "Banco Nacional de Desenvolvimento Econômico e Social (BNDES)"
-                                },  
+                                },
                                 {
                                     "nome": "Bancos de Desenvolvimento (BD)."
-                                },   
+                                },
                                 {
                                     "nome": "Agências de Fomento (AF)."
-                                },  
+                                },
                                 {
                                     "nome": "Cooperativas de Crédito (CC)."
                                 },
                                 {
                                     "nome": "Associações de Poupança e Empréstimo (APE)."
-                                },   
+                                },
                                 {
                                     "nome": "Bancos de Câmbio (BCamb)."
-                                },   
+                                },
                                 {
                                     "nome": "Companhias Hipotecárias (CH)."
-                                },   
+                                },
                                 {
                                     "nome": "Sociedades de Crédito, Financiamento e Investimento (SCFI ou Financeiras)."
-                                },   
- 
+                                },
                                 {
                                     "nome": "Sociedades de Crédito Imobiliário (SCI)."
-                                },   
+                                },
                                 {
                                     "nome": "Sociedades de Crédito ao Microempreendedor (SCM)."
-                                }, 
+                                },
                                 {
                                     "nome": "Sociedades Seguradoras."
                                 },
                                 {
                                     "nome": "Entidades Fechadas de Previdência Complementar (Fundos de Pensão)."
-                                }                                                                
-
+                                }
                             ]
                         },
-
                         {
                             "nome": "Instituição NÃO Financeira(6)",
                             "itens": [
-  
                                 {
                                     "nome": "Administradoras de Consórcio."
-                                },   
+                                },
                                 {
                                     "nome": "Sociedades de Arrendamento Mercantil (SAM ou leasing)."
-                                },                               
+                                },
                                 {
                                     "nome": "Sociedades Corretoras de Títulos e Valores Mobiliários (SCTVM)."
-                                },   
+                                },
                                 {
                                     "nome": "Sociedades Distribuidoras de Títulos e Valores Mobiliários (SDTVM)."
-                                },                                  
-
+                                },
                                 {
                                     "nome": "Sociedades de Capitalização."
-                                },   
+                                },
                                 {
                                     "nome": "Entidades Abertas de Previdência Complementar (PGBL e VGBL que se compra nos bancos)."
                                 }
-
-
                             ]
-
-                        }                                                  
+                        }
                     ]
                 },
                 {
@@ -940,81 +920,80 @@
                                 },
                                 {
                                     "nome": "Agências de Fomento (AF)."
-                                },                                   
+                                },
                                 {
                                     "nome": "Bancos de Desenvolvimento (BD)."
-                                },  
+                                },
                                 {
                                     "nome": "Bancos de Câmbio (BCamb)."
-                                },  
+                                },
+                                {
+                                    "nome": "Sociedades Corretoras de Câmbio (SCC)"
+                                },
                                 {
                                     "nome": "Sociedades de Crédito, Financiamento e Investimento (SCFI ou Financeiras)."
-                                },   
+                                },
                                 {
                                     "nome": "Sociedades de Crédito Imobiliário (SCI)."
-                                },   
+                                },
                                 {
                                     "nome": "Sociedades de Crédito ao Microempreendedor (SCM)."
-                                },                                  
+                                },
                                 {
                                     "nome": "Sociedades de Arrendamento Mercantil (SAM ou leasing)."
-                                },   
+                                },
                                 {
                                     "nome": "Sociedades Distribuidoras de Títulos e Valores Mobiliários (SDTVM)."
-                                }                                 
+                                }
                             ]
                         },
-
                         {
                             "nome": "Na denominação social, NÃO precisa conter a expressão XXX?",
                             "itens": [
                                 {
                                     "nome": "Caixa Econômica Federal (CEF)."
-                                },                                 
+                                },
                                 {
                                     "nome": "Banco Nacional de Desenvolvimento Econômico e Social (BNDES)"
-                                },   
+                                },
                                 {
                                     "nome": "Cooperativas de Crédito (CC)."
-                                },   
+                                },
                                 {
                                     "nome": "Associações de Poupança e Empréstimo (APE)."
-                                },   
+                                },
                                 {
                                     "nome": "Companhias Hipotecárias (CH)."
-                                },                                   
+                                },
                                 {
                                     "nome": "Administradoras de Consórcio."
-                                },   
+                                },
                                 {
                                     "nome": "Bolsa de Mercadorias e Futuros (BMF)."
-                                },   
+                                },
                                 {
                                     "nome": "Bolsas de Valores (BV)."
-                                },                                  
+                                },
                                 {
                                     "nome": "Sociedades Corretoras de Títulos e Valores Mobiliários (SCTVM)."
-                                },   
-                              
+                                },
                                 {
                                     "nome": "Resseguradores."
-                                },   
+                                },
                                 {
                                     "nome": "Sociedades Seguradoras."
-                                },  
+                                },
                                 {
                                     "nome": "Sociedades de Capitalização."
-                                },   
+                                },
                                 {
                                     "nome": "Entidades Abertas de Previdência Complementar (PGBL e VGBL que se compra nos bancos)."
-                                },  
+                                },
                                 {
                                     "nome": "Entidades Fechadas de Previdência Complementar (Fundos de Pensão)."
                                 }
-
                             ]
-
-                        }                                                  
+                        }
                     ]
                 },
                 {
@@ -1034,7 +1013,7 @@
                                 },
                                 {
                                     "nome": "Consolidação do setor bancário com fusões e aumento da rede de agências."
-                                }                               
+                                }
                             ]
                         },
                         {
@@ -1051,10 +1030,10 @@
                                 },
                                 {
                                     "nome": "Lei X.XXX/XXXX: Criou a CVM para fiscalizar valores mobiliários."
-                                },                               
+                                },
                                 {
                                     "nome": "Expansão do mercado financeiro e aumento da concentração bancária."
-                                }                                
+                                }
                             ]
                         },
                         {
@@ -1068,7 +1047,7 @@
                                 },
                                 {
                                     "nome": "Eliminou o sistema de cartas patentes, facilitando a entrada de novas instituições."
-                                }                            
+                                }
                             ]
                         },
                         {
@@ -1085,10 +1064,9 @@
                                 },
                                 {
                                     "nome": "Lei X.XXX/XXXX: Ampliou os poderes do Banco Central e reforçou a fiscalização."
-                                }                            
+                                }
                             ]
                         }
-                                            
                     ]
                 },
                 {
@@ -1102,7 +1080,7 @@
                                 },
                                 {
                                     "nome": "Operações passivas: depósito a prazo, repasses de recursos externos, internos e vendas de cotas de fundos de investimento."
-                                }                           
+                                }
                             ]
                         },
                         {
@@ -1113,7 +1091,7 @@
                                 },
                                 {
                                     "nome": "Operações passivas: depósitos a prazo, empréstimos externos, emissão/endosso de cédulas hipotecárias, emissão de cédulas pignoatícias de debêntures e títulos de desenvolvimento econômico."
-                                }                           
+                                }
                             ]
                         },
                         {
@@ -1124,7 +1102,7 @@
                                 },
                                 {
                                     "nome": "Operações passivas: emissão de letras e cédulas hipotecárias, caderneta de poupança, depósitos interfinanceiros, empréstimos externos."
-                                }                           
+                                }
                             ]
                         },
                         {
@@ -1135,10 +1113,10 @@
                                 },
                                 {
                                     "nome": "Operações passivas: letras hipotecárias, debêntures, empréstimos e financiamentos no país e no exterior."
-                                },                           
+                                },
                                 {
                                     "nome": "Operações especiais: administração de créditos hipotecários de terceiros e de fundos de investimento imobiliário."
-                                }                           
+                                }
                             ]
                         },
                         {
@@ -1146,7 +1124,7 @@
                             "itens": [
                                 {
                                     "nome": "Operações passivas: aceite e colocação de letras de câmbio, recibos de deósitos bancários."
-                                }                       
+                                }
                             ]
                         },
                         {
@@ -1157,7 +1135,7 @@
                                 },
                                 {
                                     "nome": "Operações passivas: depósitos de poupança, emissão de letras e cédulas hipotecárias, depósitos interfinanceiros."
-                                }                           
+                                }
                             ]
                         },
                         {
@@ -1168,13 +1146,11 @@
                                 },
                                 {
                                     "nome": "Operações passivas: emissão de debêntures, dívida externa, empréstimos e financiamentos de IFs."
-                                }                           
+                                }
                             ]
-                        }                                                                                                                        
-                                            
+                        }
                     ]
                 },
-
                 {
                     "nome": "bce",
                     "topicos": [
@@ -1192,7 +1168,7 @@
                                 },
                                 {
                                     "nome": "Responsável por implementar a política monetária definida pelo Conselho de Governo e pela gestão do BCE, transmitindo as instruções aos BCNs."
-                                } 
+                                }
                             ]
                         },
                         {
@@ -1206,7 +1182,7 @@
                                 },
                                 {
                                     "nome": "Reúne-se duas vezes por mês: na primeira, procede à uma avaliação da conjuntura econômica e monetária, e na segunda, discute questões relacionadas a outras tarefas e responsabilidades dos BCNs e do Sistema Europeu de Bancos Centrais."
-                                }                           
+                                }
                             ]
                         },
                         {
@@ -1223,13 +1199,11 @@
                                 },
                                 {
                                     "nome": "Responsável pela coleta de dados e elaboração de relatórios para o BCE."
-                                }                                                             
+                                }
                             ]
-                        }                                                                                                                        
-                                            
+                        }
                     ]
                 },
-
                 {
                     "nome": "FMI",
                     "topicos": [
@@ -1247,7 +1221,7 @@
                                 },
                                 {
                                     "nome": "Possui um Comitê de assessoramento, o International Monetary and Financial Committee (IMFC)."
-                                }                           
+                                }
                             ]
                         },
                         {
@@ -1264,7 +1238,7 @@
                                 },
                                 {
                                     "nome": "Responsável pela administração do Fundo, incluindo política operacional, empréstimos e atividades de supervisão. Reúne-se, pelo menos, três vezes por semana."
-                                }                           
+                                }
                             ]
                         },
                         {
@@ -1284,9 +1258,9 @@
                                 },
                                 {
                                     "nome": "Sob o seu comando está o corpo técnico (staff) da instituição, que colabora com os países-membros na elaboração dos programas de ajustamento e assistência técnica, que envolve a elaboração de políticas fiscais e monetárias, desenvolvimento institucional, treinamento de funcionários."
-                                }                           
+                                }
                             ]
-                        }                                                                                                                                                               
+                        }
                     ]
                 },
                 {
@@ -1299,8 +1273,8 @@
                                     "nome": "Concedido para problemas de curto prazo do balanço de pagamentos."
                                 },
                                 {
-                                    "nome": " É o tipo de financiamento mais utilizado."
-                                }                          
+                                    "nome": "É o tipo de financiamento mais utilizado."
+                                }
                             ]
                         },
                         {
@@ -1311,7 +1285,7 @@
                                 },
                                 {
                                     "nome": "Em março de 2009, a Diretoria Executiva do Fundo a criou para substituir a Short-Term Liquidity Facility adicionando a vantagem de um maior prazo de pagamento (3¼ a 5 anos), possibilidade de uso precaucionário e flexibilidade para atender aqualquer necessidade de balanço de pagamentos."
-                                }                          
+                                }
                             ]
                         },
                         {
@@ -1323,7 +1297,6 @@
                                 {
                                     "nome": "Tem duração de até três anos e o pagamento deve ocorrer em até 10 anos."
                                 }
-                                                       
                             ]
                         },
                         {
@@ -1341,43 +1314,42 @@
                                 {
                                     "nome": "A taxa de juros é de 0,25% a.a, mas foi reduzida para zero até 2011"
                                 }
-                                                       
                             ]
-                        } ,
+                        },
                         {
                             "nome": "Standby Credit Facility",
                             "itens": [
                                 {
-                                    "nome": "Criada em 2009, em substituição a High-Access Component of the Exogenous Shocks Facility. "
+                                    "nome": "Criada em 2009, em substituição a High-Access Component of the Exogenous Shocks Facility."
                                 },
                                 {
-                                    "nome": "É uma linha que pode ser utilizada de forma precaucional. "
+                                    "nome": "É uma linha que pode ser utilizada de forma precaucional."
                                 },
                                 {
                                     "nome": "Os recursos tornam-se disponíveis entre 12 e 24 meses e o montante pode atingir até 300% da quota, com prazo de repagamento entre 4 e 8 anos"
                                 },
                                 {
                                     "nome": "A taxa de juros é de 0,25% a.a, mas foi reduzida para zero até 2011 (2)"
-                                }                                       
+                                }
                             ]
-                        } ,
+                        },
                         {
                             "nome": "Rapid Credit Facility",
                             "itens": [
                                 {
-                                    "nome": "Criada em 2009, para oferecer suporte emergencial com poucas condicionalidades e grande flexibilidade para tornar os recursos disponíveis "
+                                    "nome": "Criada em 2009, para oferecer suporte emergencial com poucas condicionalidades e grande flexibilidade para tornar os recursos disponíveis"
                                 },
                                 {
-                                    "nome": "É uma linha que pode ser utilizada de forma precaucional. "
+                                    "nome": "É uma linha que pode ser utilizada de forma precaucional."
                                 },
                                 {
                                     "nome": "O montante pode atingir até 75% da quota, com prazo de repagamento entre 5½ e 10 anos. A taxa de juros está reduzida para 0% até 2011"
                                 },
                                 {
                                     "nome": "É, também, utilizada para fornecer rápida assistência financeira para países-membros afligidos por desastres naturais ou conflitos."
-                                }                                       
+                                }
                             ]
-                        }                                                                                                                                                                          
+                        }
                     ]
                 },
                 {
@@ -1388,10 +1360,10 @@
                             "itens": [
                                 {
                                     "nome": "24 membros."
-                                },  
+                                },
                                 {
                                     "nome": "Cinco dos membros escolhidos pelos maiores acionistas, e os demais eleitos pelos outros países-membros."
-                                }                    
+                                }
                             ]
                         },
                         {
@@ -1399,21 +1371,19 @@
                             "itens": [
                                 {
                                     "nome": "Administração do Banco Mundial fica a cargo dessa estrutura."
-                                }                                   
+                                }
                             ]
-                        },                                              
+                        },
                         {
                             "nome": "Presidente",
                             "itens": [
                                 {
                                     "nome": "Tradicionalmente, um cidadão americano."
-                                }                                   
+                                }
                             ]
-                        }                                                                                                                                                               
+                        }
                     ]
-                },   
-
-
+                },
                 {
                     "nome": "BID",
                     "topicos": [
@@ -1422,19 +1392,19 @@
                             "itens": [
                                 {
                                     "nome": "Autoridade máxima do BID."
-                                }, 
+                                },
                                 {
                                     "nome": "Composta por todos os países-membros."
-                                },  
+                                },
                                 {
                                     "nome": "Representados por ministros das Finanças ou Economia, ou presidentes dos bancos centrais. ."
-                                },                                                                   
+                                },
                                 {
                                     "nome": "Reúne-se uma vez por ano."
                                 },
                                 {
                                     "nome": "Delega poderes à Diretoria Executiva."
-                                }                                                        
+                                }
                             ]
                         },
                         {
@@ -1442,13 +1412,11 @@
                             "itens": [
                                 {
                                     "nome": "Composta pelo presidente do BID (mandato de cinco anos); 14 diretores executivos (mandatos de três anos); e gerentes."
-                                }                                   
+                                }
                             ]
-                        }                                                                                                                                                             
+                        }
                     ]
-                },   
-
-
+                },
                 {
                     "nome": "BIS",
                     "topicos": [
@@ -1457,10 +1425,10 @@
                             "itens": [
                                 {
                                     "nome": "Reúne-se, pelo menos, seis vezes por ano."
-                                },  
+                                },
                                 {
                                     "nome": "Composta pelos presidentes dos bancos centrais da Bélgica, da França, da Alemanha, da Itália, do Reino Unido e dos Estados Unidos, e, no máximo, nove presidentes dos demais bancos centrais membros."
-                                }                      
+                                }
                             ]
                         },
                         {
@@ -1468,23 +1436,22 @@
                             "itens": [
                                 {
                                     "nome": "Composta pelos presidentes dos bancos centrais."
-                                },                         
+                                },
                                 {
                                     "nome": "Membros se reúnem a cada dois meses para decidir e votar sobre questões regulatórias e de governança, incluindo plano de ação, orçamento e estratégia da instituição."
-                                }                         
+                                }
                             ]
-                        },                                              
+                        },
                         {
                             "nome": "Administração",
                             "itens": [
                                 {
                                     "nome": "Exercida pelo Gerente-geral."
-                                }                          
+                                }
                             ]
-                        }                                                                                                                                                               
+                        }
                     ]
                 },
-
                 {
                     "nome": "CEMLA",
                     "topicos": [
@@ -1493,10 +1460,10 @@
                             "itens": [
                                 {
                                     "nome": "Órgão máximo."
-                                },                                           
+                                },
                                 {
                                     "nome": "Reune-se anualmente, ou sempre que necessário."
-                                }                         
+                                }
                             ]
                         },
                         {
@@ -1504,15 +1471,14 @@
                             "itens": [
                                 {
                                     "nome": "Composta por presidentes de bancos centrais de membros associados, sendo o do México um participante permanente, na condição de país-sede."
-                                },                         
+                                },
                                 {
                                     "nome": "Representantes são eleitos pela Assembleia para um mandato de quatro anos."
-                                }                         
+                                }
                             ]
-                        }                                                                                                                                                             
+                        }
                     ]
                 },
-
                 {
                     "nome": "FED",
                     "topicos": [
@@ -1521,7 +1487,7 @@
                             "itens": [
                                 {
                                     "nome": "Criou, em 1913, o FED."
-                                }                      
+                                }
                             ]
                         },
                         {
@@ -1529,49 +1495,48 @@
                             "itens": [
                                 {
                                     "nome": "Aumentou a autonomia do FED e criou o FOMC, em 1935."
-                                }                       
+                                }
                             ]
-                        },                                                           
+                        },
                         {
                             "nome": "Treasuty Fed Accord",
                             "itens": [
                                 {
                                     "nome": "Reestabeleceu a autonomia do FED após a Segunda Guerra Mundial (1951)."
-                                }                       
+                                }
                             ]
-                        },                                                                                                
+                        },
                         {
                             "nome": "Depository Institutions Deregulation and Monetary Control Act (DIDMCA)",
                             "itens": [
                                 {
                                     "nome": "Eliminou, em 1980, qualquer diferença entre os bancos associados ao Fed e os não associados."
-                                }                       
+                                }
                             ]
-                        }                                                                                                                                                                                                                                                   
+                        }
                     ]
-                },                
-
+                },
                 {
                     "nome": "Mercosul",
                     "topicos": [
                         {
-                            "nome": "Conselho do Mercado Comum ",
+                            "nome": "Conselho do Mercado Comum",
                             "itens": [
                                 {
                                     "nome": "Órgão superior."
-                                },                         
+                                },
                                 {
                                     "nome": "Responsável pela condução política do Mercosul."
-                                },                         
+                                },
                                 {
                                     "nome": "Responsável pelo cumprimento dos objetivos do Tratado de Assunção."
-                                },                         
+                                },
                                 {
                                     "nome": "Manifesta-se por meio de decisões."
-                                },   
+                                },
                                 {
                                     "nome": "Reúne uma vez a cada seis meses, ou quando necessário."
-                                }                       
+                                }
                             ]
                         },
                         {
@@ -1579,16 +1544,16 @@
                             "itens": [
                                 {
                                     "nome": "Órgão executivo."
-                                },  
+                                },
                                 {
                                     "nome": "Toma as providências para o cumprimento das decisões do Conselho."
-                                },  
+                                },
                                 {
                                     "nome": "Trabalha pelo avanço do Mercado Comum."
-                                },                                                                                        
+                                },
                                 {
                                     "nome": "Manifesta-se por meio de resoluções"
-                                }                         
+                                }
                             ]
                         },
                         {
@@ -1599,59 +1564,52 @@
                                 },
                                 {
                                     "nome": "Trabalha pela aplicação da política comercial comum aos EstadosPartes."
-                                },                                                           
+                                },
                                 {
                                     "nome": "Manifesta-se por diretivas."
-                                }                         
+                                }
                             ]
-                        }, 
+                        },
                         {
                             "nome": "Parlamento do Mercosul",
                             "itens": [
                                 {
                                     "nome": "Implementação dos procedimentos internos dos Estados-Partes."
-                                },                                                         
+                                },
                                 {
                                     "nome": "Harmonização de legislações nacionais."
-                                }                         
+                                }
                             ]
-                        }, 
+                        },
                         {
                             "nome": "Foro Consultivo Econômico-Social",
                             "itens": [
                                 {
                                     "nome": "Órgão representativo dos setores econômicos e sociais."
-                                },                                                         
+                                },
                                 {
                                     "nome": "Manifesta-se por meio de recomendações ao GMC."
-                                }                         
+                                }
                             ]
-                        },                                                                                                
+                        },
                         {
                             "nome": "Secretaria Administrativa",
                             "itens": [
                                 {
                                     "nome": "Sede em Montevidéu."
-                                }                          
+                                }
                             ]
-                        }                                                                                                                                                               
+                        }
                     ]
-                }                                                 
-
-
-
-
+                }
             ]
         },
-
         {
             "nome": "seguranca-ti",
             "assuntos": [
-
                 {
                     "nome": "competencias",
                     "topicos": [
-
                         {
                             "nome": "Comitê de Segurança (Coseg)",
                             "itens": [
@@ -1660,21 +1618,18 @@
                                 },
                                 {
                                     "nome": "Deliberar sobre temas e propor soluções específicas sobre segurança da informação, podendo constituir grupos de trabalho."
-                                },   
+                                },
                                 {
                                     "nome": "Propor alterações na PSIBC e em normas de segurança da informação no âmbito do Banco Central do Brasil."
-                                },   
+                                },
                                 {
                                     "nome": "Deliberar sobre normas internas de segurança da informação que não estejam no âmbito de competência das demais instâncias do Banco Central do Brasil."
-                                },   
+                                },
                                 {
                                     "nome": "Ressalvadas as competências específicas da Diretoria Colegiada, do Presidente, dos Diretores, do GSI e do GSC, o Coseg é o órgão máximo de decisão em questões relativas à gestão da segurança da informação no âmbito do Banco Central do Brasil."
                                 }
-
                             ]
-
                         },
-
                         {
                             "nome": "Gestor de Segurança da Informação (GSI)",
                             "itens": [
@@ -1683,36 +1638,33 @@
                                 },
                                 {
                                     "nome": "Coordenar a elaboração da PSIBC e das normas internas de segurança da informação."
-                                },   
+                                },
                                 {
                                     "nome": "Assessorar a Alta Administração na implementação da PSIBC."
-                                },   
+                                },
                                 {
                                     "nome": "Estimular ações de capacitação e de profissionalização de recursos humanos em temas relacionados à segurança da informação."
-                                },   
+                                },
                                 {
                                     "nome": "Incentivar estudos de novas tecnologias, bem como seus eventuais impactos relacionados à segurança da informação."
                                 },
                                 {
                                     "nome": "Propor recursos necessários às ações de segurança da informação."
-                                },   
+                                },
                                 {
                                     "nome": "Aprovar e acompanhar a execução de ações, metas e planos estratégicos relacionados à segurança da informação."
-                                },   
+                                },
                                 {
                                     "nome": "Encaminhar periodicamente à Diretoria Colegiada relatórios sobre a execução dos planos e sobre os incidentes cibernéticos relevantes."
-                                },   
- 
+                                },
                                 {
                                     "nome": "Verificar os resultados dos trabalhos de auditoria sobre a gestão da segurança da informação."
-                                },                                   {
+                                },
+                                {
                                     "nome": "Comunicar tempestivamente ao encarregado de dados pessoais a ocorrência de incidentes de segurança que possam acarretar risco ou dano relevante aos titulares."
-                                }                                                               
-
+                                }
                             ]
-
                         },
-
                         {
                             "nome": "Gestor de Segurança e Credenciamento (GSC)",
                             "itens": [
@@ -1721,21 +1673,18 @@
                                 },
                                 {
                                     "nome": "Propor normas relacionadas aos processos de credenciamento de segurança para tratamento da informação classificada, com base na legislação e nas normas vigentes."
-                                },   
+                                },
                                 {
                                     "nome": "Credenciar ou dispor sobre o credenciamento dos usuários que podem ter acesso à informação classificada."
-                                },   
+                                },
                                 {
                                     "nome": "Fiscalizar o cumprimento da legislação e das normas de credenciamento e de tratamento da informação."
-                                },   
+                                },
                                 {
                                     "nome": "Assessorar a Diretoria Colegiada do Banco Central do Brasil em assuntos relacionados ao tratamento de informação classificada, em qualquer grau de sigilo."
-                                }                                                              
-
+                                }
                             ]
-
                         },
-
                         {
                             "nome": "Autoridade de Monitoramento da LAI",
                             "itens": [
@@ -1744,12 +1693,9 @@
                                 },
                                 {
                                     "nome": "Acompanhar os pedidos de acesso à informação e os processos de classificação, reclassificação e desclassificação da informação."
-                                }                                                           
-
+                                }
                             ]
-
                         },
-
                         {
                             "nome": "Encarregado de dados pessoais",
                             "itens": [
@@ -1758,21 +1704,12 @@
                                 },
                                 {
                                     "nome": "Comunicar à ANPD e ao titular dos dados pessoais a ocorrência de incidente de segurança que possa acarretar risco ou dano relevante a esses dados."
-                                }                                                           
-
+                                }
                             ]
-
-                        }                                                                                 
-
-
+                        }
                     ]
-                }             
-
-
-
+                }
             ]
-        }   
-
-
+        }
     ]
 }

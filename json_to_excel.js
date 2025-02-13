@@ -38,4 +38,4 @@ function jsonToExcel(jsonFile, excelFile) {
     });
 }
 
-jsonToExcel("item_procap.json", "cliaca_e_arrasta.xlsx");
+jsonToExcel("item_procap.json", "clica_e_arrasta.xlsx");

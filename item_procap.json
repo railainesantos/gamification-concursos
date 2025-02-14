@@ -1274,6 +1274,9 @@
                                 },
                                 {
                                     "nome": "É o tipo de financiamento mais utilizado."
+                                },
+                                {
+                                    "nome": "É uma linha que pode ser utilizada de forma precaucional."
                                 }
                             ]
                         },
@@ -1338,9 +1341,6 @@
                             "itens": [
                                 {
                                     "nome": "Criada em 2009, para oferecer suporte emergencial com poucas condicionalidades e grande flexibilidade para tornar os recursos disponíveis"
-                                },
-                                {
-                                    "nome": "É uma linha que pode ser utilizada de forma precaucional."
                                 },
                                 {
                                     "nome": "O montante pode atingir até 75% da quota, com prazo de repagamento entre 5½ e 10 anos. A taxa de juros está reduzida para 0% até 2011"

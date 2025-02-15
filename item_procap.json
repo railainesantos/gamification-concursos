@@ -601,6 +601,68 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "nome": "pdgp",
+                    "topicos": [
+                        {
+                            "nome": "Realização pessoal",
+                            "itens": [
+                                {
+                                    "nome": "Missão e objetivos relevantes e desafiadores"
+                                },
+                                {
+                                    "nome": "Carreira de Estado"
+                                },
+                                {
+                                    "nome": "Ambiente íntegro, produtivo e de excelência na gestão"
+                                },
+                                {
+                                    "nome": "Instituição respeitada, nacional e internacionalmente"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Realização profissional e intelectual",
+                            "itens": [
+                                {
+                                    "nome": "Atividades e desafios de alta complexidade"
+                                },
+                                {
+                                    "nome": "Investimento contínuo e qualificado em desenvolvimento profissional\r"
+                                },
+                                {
+                                    "nome": "Interação com pessoas e organizações, nacionais e internacionais, de ponta"
+                                },
+                                {
+                                    "nome": "Possibilidade de atuar em diferentes áreas e diferentes papeis: técnico, gerencial e   projetos"
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "Realização material e bem-estar",
+                            "itens": [
+                                {
+                                    "nome": "Remuneração compatível\r"
+                                },
+                                {
+                                    "nome": "Jornada de trabalho flexível"
+                                },
+                                {
+                                    "nome": "Carreira blindada e segurança"
+                                },
+                                {
+                                    "nome": "Programa de saúde com ampla cobertura e custeio paritário"
+                                },
+                                {
+                                    "nome": "Relacionamentos pessoais e profissionais positivos"
+                                },
+                                {
+                                    "nome": "Condições físicas e tecnológicas adequadas"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
